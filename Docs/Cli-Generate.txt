@@ -1,0 +1,7 @@
+// générer une carte dans plusieurs tonalité avec pour parametres ceux de la liste (entry) EntryToBeUsedForParams 
+php Generate.php --config path/to/config.ini --entry EntryToBeUsedForParams --card CardName --tones g,d,a,e,h
+// exemple
+php Generate.php --config Cards/The-Major-II-V-I/config-fr.ini --entry MajorScalePos1 --card MP-Theory-MajorHarmonicComposition --tones g,d,a,e,h
+
+// générer toutes les cartes d'une liste dans une ou plusieurs tonalité
+php Generate.php --config Cards/The-Major-II-V-I/config-fr.ini --entry MajorScalePos2Set1 --tones g

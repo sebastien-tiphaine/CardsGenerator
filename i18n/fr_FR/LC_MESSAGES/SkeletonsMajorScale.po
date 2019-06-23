@@ -1,0 +1,421 @@
+#### Translation file         ####
+#### For files in Skeletons/MajorScale/ ####
+# Copyright (C) 2018 Sébastien Tiphaine - Laguitare.ch
+# FIRST AUTHOR <sebastien@laguitare.ch>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language-Team: fr_FR <sebastien@laguitare.ch>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#### Skeletons/MajorScale/Chord-I7M ####
+
+# Skeletons/MajorScale/Chord-I7M.php:QUESTION : take care to the subtranslation : {translate:context,value,domain}
+msgid "Identifier la position de l'accord de {chord}7M dont la tonique est placée sur la {translate:StringNumth,%String%} corde"
+msgstr "Identifier la position de l'accord de {chord}7M dont la tonique est placée sur la {translate:StringNumth,%String%} corde."
+
+# Skeletons/MajorScale/Chord-I7M.php:ANSWER : take care to the subtranslation : {translate:context,value,domain}
+msgid "Position de {chord}7M dont la tonique est placée sur la {translate:StringNumth,%String%} corde:"
+msgstr "Position de {chord}7M dont la tonique est placée sur la {translate:StringNumth,%String%} corde :"
+
+#### Skeletons/MajorScale/Chord-NotePositionsInScale ####
+
+# Skeletons/MajorScale/Chord-NotePositionsInScale:QUESTION
+# {translate:ChordNote,%ChordNote%} will be replace by the note function in the chord and
+# {chord:%Chord%}%ChordQuality% by the chord name. see CardGenerator.po with context translateChord for translations
+# example : the 3rd of G7M
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Identifier dans la gamme suivante, tous les emplacements de la {translate:ChordNote,%ChordNote%} de {chord:%Chord%}%ChordQuality%"
+msgstr "Identifier dans la gamme suivante, tous les emplacements de la {translate:ChordNote,%ChordNote%} de {chord:%Chord%}%ChordQuality%."
+
+# Skeletons/MajorScale/Chord-NotePositionsInScale:ANSWER
+# {translate:ChordNote,%ChordNote%} will be replace by the note function in the chord and
+# {chord:%Chord%}%ChordQuality% by the chord name. see CardGenerator.po with context translateChord for translations
+# example : the 3rd of G7M
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Emplacements de la {translate:ChordNote,%ChordNote%} de {chord:%Chord%}%ChordQuality%:"
+msgstr "Emplacements de la {translate:ChordNote,%ChordNote%} de {chord:%Chord%}%ChordQuality% :"
+
+# Skeletons/MajorScale/Chord-NotePositionsInScale:Image Title (QUESTIONINFO and ANSWERINFO)
+# Skeletons/MajorScale/ChordPosition:Image Title (QUESTIONINFO and ANSWERINFO)
+# Skeletons/MajorScale/II-V-I-Chords:Image Title (QUESTIONINFO and ANSWERINFO)
+# Skeletons/MajorScale/Penta-MajorScale-Identification:Image Title (QUESTIONINFO and ANSWERINFO)
+# Skeletons/MajorScale/MajorScale-Penta-Identification:Image Title (QUESTIONINFO and ANSWERINFO)
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "{note} majeur - {translate:ScalePosition,%ScalePos%} position"
+msgstr "{note} majeur - {translate:ScalePosition,%ScalePos%} position"
+
+# Skeletons/MajorScale/Chord-NotePositionsInScale:Image Title (ANSWERINFO)
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "{note} majeur - {translate:ScalePosition,%ScalePos%} position / {chord:%Chord%}%ChordQuality%"
+msgstr "{note} majeur - {translate:ScalePosition,%ScalePos%} position / {chord:%Chord%}%ChordQuality%"
+
+msgid "Afin de bien mémoriser, jouer l'accord, l'une de ses {translate:ChordNote,%ChordNote%}s, puis construire une phrase à l'aide de la gamme de {note} majeur, en partant de l'une des {translate:ChordNote,%ChordNote%}s de {chord:%Chord%}%ChordQuality%"
+msgstr ""
+"Afin de bien mémoriser, pour chacune des occurences de la {translate:ChordNote,%ChordNote%} de {chord:%Chord%}%ChordQuality%:<ol class=infolist>"
+"<li> jouer l'accord, puis la {translate:ChordNote,%ChordNote%},</li>"
+"<li> construire une phrase à l'aide de la gamme de {note} majeur, en partant de la {translate:ChordNote,%ChordNote%} de {chord:%Chord%}%ChordQuality%.</li>"
+"</ol>"
+
+# Skeletons/MajorScale/Chord-NotePositionsInScale:ANSWERINFO:rem
+msgid "Afin de bien mémoriser, jouer l'accord puis l'une des 7"
+msgstr ""
+"Afin de bien mémoriser, jouer l'accord puis l'une des 7èmes.<br>" 
+"Repeter le processus pour toutes les 7èmes."
+
+#### Skeletons/MajorScale/ChordPosition ####
+
+# Skeletons/MajorScale/ChordPosition:QUESTION
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Quelle position de l'accord du {translate:ScaleChordNumth,%Chord%} degré de {note} majeur peut-être contenu dans la gamme suivante:"
+msgstr "Quelle position de l'accord du {translate:ScaleChordNumth,%Chord%} degré de {note} majeur peut-être contenu dans la gamme suivante :"
+
+# Skeletons/MajorScale/ChordPosition:ANSWER
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "L'accord du {translate:ScaleChordNumth,%Chord%} degré de {note} majeur est {chord:%Chord%}%ChordQuality%"
+msgstr "L'accord du {translate:ScaleChordNumth,%Chord%} degré de {note} majeur est {chord:%Chord%}%ChordQuality%."
+
+# Skeletons/MajorScale/ChordPosition:ANSWERINFO:rem
+msgid "Afin de bien memoriser, jouer l'accord puis la gamme majeure en partant de la fondamental de l'accord"
+msgstr "" 
+"Afin de bien mémoriser, jouer l'accord de {chord:%Chord%}%ChordQuality% puis la gamme en partant de la fondamentale de l'accord.<br>"
+"Improviser ensuite sur l'accompagnement ci-après, en commençant les phrases par l'une des notes de l'accord."
+
+
+#### Skeletons/MajorScale/ChordRootIdentification ####
+
+# Skeletons/MajorScale/ChordRootIdentification:QUESTION:
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Sur la {translate:StringNumth,%String%} corde, identifier la tonique de l'accord du {translate:ScaleChordNumth,%Chord%} degré de {note} majeur"
+msgstr "Sur la {translate:StringNumth,%String%} corde, identifier la tonique de l'accord du {translate:ScaleChordNumth,%Chord%} degré de {note} majeur."
+
+# Skeletons/MajorScale/ChordRootIdentification:ANSWER:
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Sur la {translate:StringNumth,%String%} corde, la tonique de {chord:%Chord%}%ChordQuality% est {translate:FretNumth,{fretnum:%String%,0,%Chord%,%MinFret%}}"
+msgstr "Sur la {translate:StringNumth,%String%} corde, la tonique de {chord:%Chord%}%ChordQuality% est {translate:FretNumth,{fretnum:%String%,0,%Chord%,%MinFret%}}."
+
+# Skeletons/MajorScale/ChordRootIdentification:ANSWERINFO:image title
+msgid "Tonique de {chord:%Chord%}%ChordQuality%"
+msgstr "Tonique de {chord:%Chord%}%ChordQuality%"
+
+#### Skeletons/MajorScale/IdentificationRootNote ####
+
+# Skeletons/MajorScale/IdentificationRootNote:QUESTION:
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Sur la {translate:StringNumth,%String%} corde, identifier l'emplacement de la note suivante:"
+msgstr "Sur la {translate:StringNumth,%String%} corde, identifier l'emplacement de la note suivante :"
+
+# Skeletons/MajorScale/IdentificationRootNote:ANSWER:
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Sur la {translate:StringNumth,%String%} corde, {note} est {translate:FretNumth,{fretnum:%String%,0,0,%MinFret%}}"
+msgstr "Sur la {translate:StringNumth,%String%} corde, {note} est placé {translate:FretNumth,{fretnum:%String%,0,0,%MinFret%}}."
+
+#### Skeletons/MajorScale/II-V-I-Chords-Reverse ####
+
+# Skeletons/MajorScale/II-V-I-Chords-Reverse:QUESTION:
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Dans quelle position de la gamme de {note} majeur les accords suivants peuvent-ils être contenu ?"
+msgstr "Dans quelle position de la gamme de {note} majeur les accords suivants peuvent-ils être contenu ?"
+
+# Skeletons/MajorScale/II-V-I-Chords-Reverse:ANSWER:
+msgid "Ces accords appartiennent à la {translate:ScalePosition,%ScalePos%} position de {note} majeur"
+msgstr "Ces accords appartiennent à la {translate:ScalePosition,%ScalePos%} position de {note} majeur."
+
+# Skeletons/MajorScale/II-V-I-Chords-Reverse:ANSWER:ADVICE
+# Skeletons/MajorScale/II-V-I-Chords:ANSWER:ADVICE
+msgid "Pour bien mémoriser, suivre l'accompagnement en jouant l'accord correspondant sur le premier temps de chaque mesure"
+msgstr "Pour bien mémoriser, suivre l'accompagnement en jouant l'accord correspondant sur le premier temps de chaque mesure."
+
+# Skeletons/MajorScale/II-V-I-Chords:ADVICE REM:
+msgid "Lorsque l'exercice est bien maitrisé, déplacer l'accord sur un autre temps de la mesure ou un contretemps.<br>Alterner ensuite 4 mesures d'accompagnement et 4 mesures d'improvisation"
+msgstr ""
+"Lorsque l'exercice est bien maitrisé, déplacer les accords sur un autre temps de la mesure ou un contretemps.<br>"
+"Alterner ensuite 4 mesures d'accompagnement et 4 mesures d'improvisation."
+
+# Skeletons/MajorScale/II-V-I-Chords:QUESTION:
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Quelles positions des accords suivants peuvent-être contenu dans la {translate:ScalePosition,%ScalePos%} position de la gamme de {note} majeur ?"
+msgstr "Quelles positions des accords suivants peuvent-être contenu dans la {translate:ScalePosition,%ScalePos%} position de la gamme de {note} majeur ?"
+
+# Skeletons/MajorScale/II-V-I-Chords:ANSWER:
+msgid "Positions des accords IIm7, V7 et I7M:"
+msgstr "Positions des accords IIm7, V7 et I7M :"
+
+
+#### Skeletons/MajorScale/NotePositionInChord ####
+
+# Skeletons/MajorScale/NotePositionInChord:QUESTION:
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Dans l'accord de {chord:%Chord%}%ChordQuality%, identifier l'emplacement la {translate:ChordNote,%ChordNote%}"
+msgstr "Dans l'accord de {chord:%Chord%}%ChordQuality%, identifier l'emplacement la {translate:ChordNote,%ChordNote%}."
+
+# Skeletons/MajorScale/NotePositionInChord:ANSWER:
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Emplacement de la {translate:ChordNote,%ChordNote%} dans l'accord de {chord:%Chord%}%ChordQuality%:"
+msgstr "Emplacement de la {translate:ChordNote,%ChordNote%} dans l'accord de {chord:%Chord%}%ChordQuality% :"
+
+# Skeletons/MajorScale/NotePositionInChord:ANSWERINFO:rem
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Afin de bien mémoriser, jouer l'accord, sa {translate:ChordNote,%ChordNote%}, puis construire une phrase à l'aide de la gamme de {note} majeur, en partant de la {translate:ChordNote,%ChordNote%} de {chord:%Chord%}%ChordQuality%"
+msgstr ""
+"Afin de bien mémoriser:<ol class=infolist>"
+"<li> jouer l'accord, puis sa {translate:ChordNote,%ChordNote%},</li>"
+"<li> construire une phrase à l'aide de la gamme de {note} majeur, en partant de la {translate:ChordNote,%ChordNote%} de {chord:%Chord%}%ChordQuality%.</li>"
+"</ol>"
+
+#### Skeletons/MajorScale/Penta-MajorScale-Identification ####
+
+# Skeletons/MajorScale/Penta-MajorScale-Identification:QUESTION
+msgid "Identifier la position de la gamme pentatonique de {note} majeur en relation avec à la gamme suivante"
+msgstr "Identifier la position de la gamme pentatonique de {note} majeur en relation avec à la gamme suivante :"
+
+# Skeletons/MajorScale/Penta-MajorScale-Identification:ANSWER
+msgid "Position de la gamme pentatonique de {note} majeur correspondante"
+msgstr "Position de la gamme pentatonique de {note} majeur correspondante :"
+
+# Skeletons/MajorScale/Penta-MajorScale-Identification:ANSWERINFO:Image Title
+# Skeletons/MajorScale/MajorScale-Penta-Identification:ANSWERINFO:Image Title
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Pent. maj. - {translate:ScalePosition,%ScalePos%} position"
+msgstr "Pent. maj. - {translate:ScalePosition,%ScalePos%} position"
+
+# Skeletons/MajorScale/Penta-MajorScale-Identification:ANSWERINFO:rem
+# Skeletons/MajorScale/MajorScale-Penta-Identification:ANSWERINFO:rem
+msgid "Les cercles bleus sur le diagramme de la pentatonique correspondent à la blue note"
+msgstr "Les cercles bleus sur le diagramme de la pentatonique correspondent à la blue note."
+
+# Skeletons/MajorScale/Penta-MajorScale-Identification:ANSWERINFO:Sounds Title
+# Skeletons/MajorScale/MajorScale-Penta-Identification:ANSWERINFO:Sounds Title
+msgid "Pour bien mémoriser, improviser sur l'accompagnement suivant en alternant gamme pentatonique et gamme majeure"
+msgstr "Pour bien mémoriser, improviser sur l'accompagnement en alternant gamme pentatonique et gamme majeure."
+
+#### Skeletons/MajorScale/MajorScale-Penta-Identification ####
+
+# Skeletons/MajorScale/MajorScale-Penta-Identification:QUESTION
+msgid "Identifier la position de la gamme de {note} majeur en relation avec à la gamme suivante"
+msgstr "Identifier la position de la gamme de {note} majeur en relation avec à la gamme suivante :"
+
+# Skeletons/MajorScale/MajorScale-Penta-Identification:ANSWER
+msgid "Position de la gamme de {note} majeur correspondante"
+msgstr "Position de la gamme de {note} majeur correspondante :"
+
+#### Skeletons/MajorScale/PhrasesBuilder-II-V-I ####
+
+# Skeletons/MajorScale/PhrasesBuilder-II-V-I:QUESTION
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Construire une phrase contenant dans l'ordre"
+msgstr "Construire une phrase contenant dans l'ordre :"
+
+# Skeletons/MajorScale/PhrasesBuilder-II-V-I:QUESTIONINFO : TemplateText
+# Skeletons/MajorScale/PhrasesBuilder-SimpleFollow-II-V-I:QUESTIONINFO : TemplateText
+# take care to the subtranslation : {translate:context,value,domain}
+# Example result expected from the following message : The 3rd of Am7 on the 4th string
+msgid "la {translate:ChordNote,%tplChordnote%} de {chord:%tplChord%}%tplChordQuality% sur la {translate:StringNumth,%tplString%} corde"
+msgstr "la {translate:ChordNote,%tplChordnote%} de {chord:%tplChord%}%tplChordQuality% sur la {translate:StringNumth,%tplString%} corde."
+
+# Skeletons/MajorScale/PhrasesBuilder-II-V-I:QUESTIONINFO : Advice
+msgid "Vous pouvez alternativement utiliser la gamme majeure et/ou la gamme pentatonique"
+msgstr "Vous pouvez alternativement utiliser la gamme majeure et/ou la gamme pentatonique."
+
+# Skeletons/MajorScale/PhrasesBuilder-II-V-I:QUESTIONINFO : rem
+msgid "Une phrase peut être simplement constituée de notes conjointes"
+msgstr "Une phrase peut être simplement constituée de notes conjointes !"
+
+# Skeletons/MajorScale/PhrasesBuilder-II-V-I:ANSWER
+# Skeletons/MajorScale/PhrasesBuilder-SimpleFollow-II-V-I:ANSWER
+msgid "Emplacements des notes cibles"
+msgstr "Emplacements des notes cibles :"
+
+#### Skeletons/MajorScale/PhrasesBuilder-SimpleFollow-II-V-I ####
+
+# Skeletons/MajorScale/PhrasesBuilder-SimpleFollow-II-V-I:QUESTION
+msgid "Jouer dans l'ordre les notes suivantes sur les 1ers temps de chaque mesure de l'accompagnement afin de suivre les changements harmoniques"
+msgstr "Jouer dans l'ordre les notes suivantes sur les 1ers temps de chaque mesure de l'accompagnement afin de suivre les changements harmoniques :"
+
+# Skeletons/MajorScale/PhrasesBuilder-SimpleFollow-II-V-I:QUESTIONINFO : rem
+msgid "Attention ! Les deux dernières mesures partagent le même accord ! Lorsque l'exercice est maitrisé, pensez à utiliser des notes d'approches, à placer les notes cibles sur les autres temps mais aussi sur les contretemps"
+msgstr ""
+"Attention ! Les deux dernières mesures partagent le même accord !<br>"
+"Lorsque l'exercice est maitrisé, pensez à utiliser des notes d'approches,<br>"
+"ou à placer les notes cibles sur les autres temps mais aussi sur les contretemps !"
+
+#### Skeletons/MajorScale/Scale-Chord ####
+
+# Skeletons/MajorScale/Scale-Chord:QUESTION
+msgid "Dans quelle position de la gamme de {note} majeur cet accord est-il contenu"
+msgstr "Dans quelle position de la gamme de {note} majeur cet accord est-il contenu ?"
+
+# Skeletons/MajorScale/Scale-Chord:ANSWER
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Cet accord est contenu dans la {translate:ScalePosition,%ScalePos%} position de la gamme de {note} majeur"
+msgstr "Cet accord est contenu dans la {translate:ScalePosition,%ScalePos%} position de la gamme de {note} majeur."
+
+# Skeletons/MajorScale/Scale-Chord:ANSWERINFO : Advice
+msgid "Afin de bien mémoriser, jouer l'accord de {chord:%Chord%}%ChordQuality% puis la gamme en partant de la fondamentale de l'accord"
+msgstr "" 
+"Afin de bien mémoriser, jouer l'accord de {chord:%Chord%}%ChordQuality% puis la gamme en partant de la fondamentale de l'accord.<br>"
+"Improviser ensuite sur l'accompagnement ci-après, en commençant les phrases par l'une des notes de l'accord."
+
+#### Skeletons/MajorScale/Theory-II-ScaleToneChord-Quality ####
+
+# Skeletons/MajorScale/Theory-II-ScaleToneChord-Quality:QUESTION
+msgid "Dans une gamme majeure, quel est le chiffrage de l'accord du 2nd degré"
+msgstr "Dans une gamme majeure, quel est le chiffrage de l'accord du 2nd degré."
+
+# Skeletons/MajorScale/Theory-II-ScaleToneChord-Quality:ANSWER
+msgid "L'accord du 2nd degré est chiffré : m7"
+msgstr "L'accord du 2nd degré est chiffré : m7."
+
+# Skeletons/MajorScale/Theory-II-ScaleToneChord-Quality:ANSWERINFO
+msgid "<div class=infolist>Il est composé<ul><li>de la tonique,</li><li>d'une tierce mineure,</li><li>d'une quinte juste,</li><li>ainsi que d'une septième mineure</li></ul></div>"
+msgstr ""
+"<div class=infolist>Il est composé<ul>"
+"<li>de la tonique,</li>"
+"<li>d'une tierce mineure,</li>"
+"<li>d'une quinte juste,</li>"
+"<li>ainsi que d'une septième mineure.</li>"
+"</ul></div>"
+
+#### Skeletons/MajorScale/Theory-II-ScaleToneChord-Which ####
+
+# Skeletons/MajorScale/Theory-II-ScaleToneChord-Which:QUESTION
+msgid "Quel accord est le 2nd degré de {note} majeur"
+msgstr "Quel accord est le 2nd degré de {note} majeur ?"
+
+# Skeletons/MajorScale/Theory-II-ScaleToneChord-Which:ANSWER
+msgid "L'accord du 2nd degré de {note} majeur est"
+msgstr "L'accord du 2nd degré de {note} majeur est :"
+
+#### Skeletons/MajorScale/Theory-V-ScaleToneChord-Quality ####
+
+# Skeletons/MajorScale/Theory-V-ScaleToneChord-Quality:QUESTION
+msgid "Dans une gamme majeure, quel est le chiffrage de l'accord du 5ème degré"
+msgstr "Dans une gamme majeure, quel est le chiffrage de l'accord du 5ème degré."
+
+# Skeletons/MajorScale/Theory-V-ScaleToneChord-Quality:ANSWER
+msgid "L'accord du 5ème degré est chiffré : 7"
+msgstr "L'accord du 5ème degré est chiffré : 7."
+
+# Skeletons/MajorScale/Theory-V-ScaleToneChord-Quality:ANSWERINFO
+msgid "<div class=infolist>Il est composé<ul><li>de la tonique,</li><li>d'une tierce majeure,</li><li>d'une quinte juste,</li><li>ainsi que d'une septième mineure</li></ul></div>"
+msgstr ""
+"<div class=infolist>Il est composé<ul>"
+"<li>de la tonique,</li>"
+"<li>d'une tierce majeure,</li>"
+"<li>d'une quinte juste,</li>"
+"<li>ainsi que d'une septième mineure.</li>"
+"</ul></div>"
+
+#### Skeletons/MajorScale/Theory-V-ScaleToneChord-Which ####
+
+# Skeletons/MajorScale/Theory-V-ScaleToneChord-Which:QUESTION
+msgid "Quel accord est le 5ème degré de {note} majeur"
+msgstr "Quel accord est le 5ème degré de {note} majeur ?"
+
+# Skeletons/MajorScale/Theory-V-ScaleToneChord-Which:ANSWER
+msgid "L'accord du 5ème degré de {note} majeur est"
+msgstr "L'accord du 5ème degré de {note} majeur est :"
+
+#### Skeletons/MajorScale/TheoryAlterations ####
+
+# Skeletons/MajorScale/TheoryAlterations:QUESTION
+msgid "Combien y-a-t-il d'altérations dans la gamme de"
+msgstr "Combien y-a-t-il d'altérations dans la gamme de :"
+
+# Skeletons/MajorScale/TheoryAlterations:QUESTIONINFO
+# Skeletons/MajorScale/TheoryScaleByAlterations:ANSWERINFO
+msgid "{note} majeur"
+msgstr "{note} majeur"
+
+# Skeletons/MajorScale/TheoryAlterations:ANSWER: zero
+msgid "La gamme de {note} majeur ne comporte aucune altération"
+msgstr "La gamme de {note} majeur ne comporte aucune altération."
+
+# Skeletons/MajorScale/TheoryAlterations:ANSWER: plural
+msgid "La gamme de {note} majeur comporte __VALUE__ altération"
+msgid_plural "La gamme de {note} majeur comporte __VALUE__ altérations"
+msgstr[0] "La gamme de {note} majeur comporte __VALUE__ altération :"
+msgstr[1] "La gamme de {note} majeur comporte __VALUE__ altérations :"
+
+#### Skeletons/MajorScale/TheoryScaleByAlterations ####
+
+# Skeletons/MajorScale/TheoryScaleByAlterations:QUESTION: zero
+msgid "Quelle gamme majeure ne comporte aucune altération"
+msgstr "Quelle gamme majeure ne comporte aucune altération ?"
+
+# Skeletons/MajorScale/TheoryScaleByAlterations:QUESTION: plural
+msgid "Quelle gamme majeure comporte l'alteration suivante"
+msgid_plural "Quelle gamme majeure comporte les alterations suivantes"
+msgstr[0] "Quelle gamme majeure comporte l'alteration suivante ?"
+msgstr[1] "Quelle gamme majeure comporte les alterations suivantes ?"
+
+# Skeletons/MajorScale/TheoryScaleByAlterations:ANSWER
+msgid "Il s'agit de la gamme de"
+msgstr "Il s'agit de la gamme de :"
+
+#### Skeletons/MajorScale/TheoryChordsNote-Which ####
+
+# Skeletons/MajorScale/TheoryChordsNote-Which:QUESTION
+msgid "Quelle note est la {translate:ChordNote,%ChordNote%} de"
+msgstr "Quelle note est la {translate:ChordNote,%ChordNote%} de :"
+
+# Skeletons/MajorScale/TheoryChordsNote-Which:ANSWER
+msgid "La {translate:ChordNote,%ChordNote%} de {chord:%Chord%}%ChordQuality% est"
+msgstr "La {translate:ChordNote,%ChordNote%} de {chord:%Chord%}%ChordQuality% est :"
+
+#### Skeletons/MajorScale/TheoryScaleHalfTonesPractical ####
+
+# Skeletons/MajorScale/TheoryScaleHalfTonesPractical:QUESTION
+msgid "Dans la gamme de suivante, ou les demi-tons sont-ils placés"
+msgstr "Dans la gamme de suivante, ou les demi-tons sont-ils placés :"
+
+# Skeletons/MajorScale/TheoryScaleHalfTonesPractical:ANSWER
+msgid "Dans la gamme de {note} majeur, les demi-tons sont placés entre"
+msgstr "Dans la gamme de {note} majeur, les demi-tons sont placés entre :"
+
+#### Skeletons/MajorScale/TheoryScaleHalfTonesTheorical ####
+
+# Skeletons/MajorScale/TheoryScaleHalfTonesTheorical:QUESTION
+msgid "Dans une gamme majeure, ou les demi-tons sont-ils placés"
+msgstr "Dans une gamme majeure, ou les demi-tons sont-ils placés ?"
+
+# Skeletons/MajorScale/TheoryScaleHalfTonesTheorical:ANSWER
+msgid "Dans une gamme majeure, les demi-tons sont placés entre"
+msgstr "Dans une gamme majeure, les demi-tons sont placés entre :"
+
+# Skeletons/MajorScale/TheoryScaleHalfTonesTheorical:ANSWERINFO
+msgid "<ul class=infolist><li>les degrés 3 et 4</li><li>les degrés 7 et 1</li></ul>"
+msgstr "<ul class=infolist><li>les degrés 3 et 4</li><li>les degrés 7 et 1</li></ul>"
+
+#### Skeletons/MajorScale/IdentificationFromRoot ####
+
+# Skeletons/MajorScale/IdentificationFromRoot:QUESTION
+msgid "Identifier la position de la gamme de {note} majeur dont la tonique est placée sur la {translate:StringNumth,%ScaleRootString%} corde"
+msgstr "Identifier la position de la gamme de {note} majeur dont la tonique est placée sur la {translate:StringNumth,%ScaleRootString%} corde."
+
+# Skeletons/MajorScale/IdentificationFromRoot:ANSWER
+msgid "Position de la gamme de {note} majeur dont la tonique est placée sur la {translate:StringNumth,%ScaleRootString%} corde"
+msgstr "Position de la gamme de {note} majeur dont la tonique est placée sur la {translate:StringNumth,%ScaleRootString%} corde."
+
+# Skeletons/MajorScale/IdentificationFromRoot:ADVICE
+msgid "Pour bien mémoriser, jouer la gamme en marquant une pause sur chaque instance de la tonique, puis improviser à l'aide de l'accompagnement ci-après"
+msgstr "Pour bien mémoriser, jouer la gamme en marquant une pause sur chaque instance de la tonique, puis jouer ou improviser sur l'accompagnement ci-après."
+
+#### Skeletons/MajorScale/ChordArpeggio ####
+
+# Skeletons/MajorScale/ChordArpeggio:QUESTION
+msgid "Identifier l'arpège de {chord:%Chord%}%ChordQuality% dans la {translate:ScalePosition,%ScalePos%} position de la gamme de {note} majeur"
+msgstr "Identifier l'arpège de {chord:%Chord%}%ChordQuality% dans la {translate:ScalePosition,%ScalePos%} position de la gamme de {note} majeur."
+
+# Skeletons/MajorScale/ChordArpeggio:ANSWER
+msgid "Arpège de {chord:%Chord%}%ChordQuality%"
+msgstr "Arpège de {chord:%Chord%}%ChordQuality% :"
+
+# Skeletons/MajorScale/ChordArpeggio:ADVICE
+msgid "Afin de bien mémoriser, jouer l'accord de {chord:%Chord%}%ChordQuality% suivit de son arpège, puis improviser à l'aide de l'accompagnement ci-après. Lors de l'improvisation, pensez à également utiliser la gamme majeur correspondante, ainsi que la gamme pentatonique"
+msgstr ""
+"Afin de bien mémoriser, jouer l'accord de {chord:%Chord%}%ChordQuality% suivit de son arpège, puis improviser à l'aide de l'accompagnement ci-après.<br>"
+"Lors de l'improvisation, pensez à également utiliser la gamme majeur correspondante, ainsi que la gamme pentatonique." 

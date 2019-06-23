@@ -1,0 +1,4 @@
+{translate:ScaleChordNumth,%chord%} 
+{translate:ScalePosition,%scalePos%} {numth:%scalePos%}
+{translate:StringNumth,%string%}     {numth:%string%}
+{translate:ChordNote,%chordNote%}    {chordnote:%chordNote%}

@@ -1,0 +1,124 @@
+#### Translation file         ####
+#### For files in Skeletons/PentatonicScale/ ####
+# Copyright (C) 2018 Sébastien Tiphaine - Laguitare.ch
+# FIRST AUTHOR <sebastien@laguitare.ch>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language-Team: fr_FR <sebastien@laguitare.ch>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#### Skeletons/PentatonicScale/Major-IdentificationFromRoot ####
+
+# Skeletons/PentatonicScale/Major-IdentificationFromRoot:QUESTION
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Identifier la position de la gamme pentatonique de {note} majeur dont la tonique est placée sur la {translate:StringNumth,%ScaleRootString%} corde"
+msgstr "Identifier la position de la gamme pentatonique de {note} majeur dont la tonique est placée sur la {translate:StringNumth,%ScaleRootString%} corde."
+
+# Skeletons/PentatonicScale/Major-IdentificationFromRoot:ANSWER
+# take care to the subtranslation : {translate:context,value,domain}
+msgid "Position de la gamme pentatonique de {note} majeur dont la tonique est placée sur la {translate:StringNumth,%ScaleRootString%} corde"
+msgstr "Position de la gamme pentatonique de {note} majeur dont la tonique est placée sur la {translate:StringNumth,%ScaleRootString%} corde:"
+
+# Skeletons/PentatonicScale/Major-IdentificationFromRoot:ANSWERINFO:Image Title
+msgid "Pent. maj. - {translate:ScalePosition,%ScalePos%} position"
+msgstr "Pent. maj. - {translate:ScalePosition,%ScalePos%} position"
+
+# Skeletons/PentatonicScale/Major-IdentificationFromRoot:ANSWERINFO:Rem
+msgid "Les cercles bleus correspondent à la blue note"
+msgstr "Les cercles bleus correspondent à la blue note."
+
+# Skeletons/PentatonicScale/Major-IdentificationFromRoot:ANSWERINFO:Advice
+msgid "Pour bien mémoriser, jouer la gamme en marquant une pause sur chaque instance de la tonique, puis improviser à l'aide de l'accompagnement ci-après"
+msgstr "Pour bien mémoriser, jouer la gamme en marquant une pause sur chaque instance de la tonique, puis jouer ou improviser sur l'accompagnement ci-après."
+
+#### Skeletons/PentatonicScale/Major-SingleScaleForChord ####
+
+# Skeletons/PentatonicScale/Major-SingleScaleForChord:QUESTION
+msgid "Quelle position de la gamme pentatonique de {note} majeur contient l'accord suivant"
+msgstr "Quelle position de la gamme pentatonique de {note} majeur contient l'accord suivant :"
+
+# Skeletons/PentatonicScale/Major-SingleScaleForChord:ANSWER
+msgid "Position de la gamme pentatonique majeure correspondante"
+msgstr "Position de la gamme pentatonique majeure correspondante :"
+
+# Skeletons/PentatonicScale/Major-SingleScaleForChord:ANSWERINFO:Image Title
+msgid "Pent. maj. - {translate:ScalePosition,%pentaScalePos%} position"
+msgstr "Pent. maj. - {translate:ScalePosition,%pentaScalePos%} position"
+
+# Skeletons/PentatonicScale/Major-SingleScaleForChord:ANSWERINFO:Advice
+msgid "Afin de bien mémoriser, jouer l'accord de {chord:%Chord%}%ChordQuality% puis la gamme pentatonique en partant de la fondamentale de l'accord"
+msgstr "Afin de bien mémoriser, jouer l'accord de {chord:%Chord%}%ChordQuality% puis la gamme pentatonique en partant de la fondamentale de l'accord."
+
+# Skeletons/PentatonicScale/Major-SingleScaleForChord-I7:ANSWERINFO:Advice
+msgid "Afin de bien mémoriser, jouer l'accord de {chord:%Chord%}7 puis la gamme pentatonique en partant de la fondamentale de l'accord"
+msgstr "Afin de bien mémoriser, jouer l'accord de {chord:%Chord%}7 puis la gamme pentatonique en partant de la fondamentale de l'accord."
+
+# Skeletons/PentatonicScale/Major-SingleScaleForChord:ANSWERINFO:Rem
+msgid "Les cercles bleus sur le diagramme de la pentatonique correspondent à la blue note"
+msgstr "Les cercles bleus sur le diagramme de la pentatonique correspondent à la blue note."
+
+#### Skeletons/PentatonicScale/Theory-MajorHarmonicComposition ####
+
+# Skeletons/PentatonicScale/Theory-MajorHarmonicComposition:QUESTION
+msgid "Quelle est la composition harmonique de la gamme pentatonique majeure"
+msgstr "Quelle est la composition harmonique de la gamme pentatonique majeure ?"
+
+# Skeletons/PentatonicScale/Theory-MajorHarmonicComposition:ANSWER
+msgid "La gamme pentatonique majeure est composée comme suit"
+msgstr "La gamme pentatonique majeure est composée comme suit :"
+
+# Skeletons/PentatonicScale/Theory-MajorHarmonicComposition:ANSWERINFO:infoText
+msgid "<div class=infolist><ul><li>(1) Tonique,</li><li>(2) Seconde majeure,</li><li>(3) Tierce majeure,</li><li>(5) Quinte juste,</li><li>(6) Sixte majeure,</li><li>Blue note : (b3) tierce mineure.</li></ul></div>"
+msgstr "<div class=infolist><ul><li>(1) Tonique,</li><li>(2) Seconde majeure,</li><li>(3) Tierce majeure,</li><li>(5) Quinte juste,</li><li>(6) Sixte majeure,</li><li>Blue note : (b3) tierce mineure.</li></ul></div>"
+
+# Skeletons/PentatonicScale/TheoryScaleNote-Which.ini:Question
+msgid "Quelle est la {translate:ChordNote,%ScaleNote%} de la gamme pentatonique de"
+msgstr "Quelle est la {translate:ChordNote,%ScaleNote%} de la gamme pentatonique de :"
+# Skeletons/PentatonicScale/TheoryScaleNote-Which.ini:ANSWER
+msgid "La {translate:ChordNote,%ScaleNote%} de la gamme pentatonique de {note} majeure est"
+msgstr "La {translate:ChordNote,%ScaleNote%} de la gamme pentatonique de {note} majeure est :"
+
+# Skeletons/PentatonicScale/Major-NotePositionsInScale:QUESTION
+msgid "Identifier dans la gamme pentatonique suivante, tous les emplacements de la {translate:ChordNote,%ScaleNote%}"
+msgstr "Identifier dans la gamme pentatonique suivante, tous les emplacements de la {translate:ChordNote,%ScaleNote%} :"
+
+# Skeletons/PentatonicScale/Major-NotePositionsInScale:QUESTIONINFO: img title
+msgid "{note} pent. maj. (%ScalePos%)"
+msgstr "{note} pent. maj. (%ScalePos%)"
+
+# Skeletons/PentatonicScale/Major-NotePositionsInScale:ANSWER
+msgid "Emplacements de la {translate:ChordNote,%ScaleNote%}"
+msgstr "Emplacements de la {translate:ChordNote,%ScaleNote%} :"
+
+# Skeletons/PentatonicScale/Major-NotePositionsInScale:ADVICE
+msgid "Pour bien mémoriser, jouer la gamme en partant de l'une des {translate:ChordNote,%ScaleNote%}s, puis entrainez vous à improviser sur l'accompagnement suivant en partant de cette meme note"
+msgstr "Pour bien mémoriser, jouer la gamme en partant de l'une des {translate:ChordNote,%ScaleNote%}s, puis entrainez vous à improviser sur l'accompagnement suivant en partant de cette même note."
+
+# Skeletons/PentatonicScale/Blues-ScaleToneChord7-Which:Question
+msgid "Quel accord est le {translate:ScaleChordNumth,%ScaleChord%} degré de {note} majeur"
+msgstr "Quel accord est le {translate:ScaleChordNumth,%ScaleChord%} degré de {note} majeur ?"
+
+# Skeletons/PentatonicScale/Blues-ScaleToneChord7-Which:ANSWER
+msgid "L'accord du {translate:ScaleChordNumth,%ScaleChord%} degré de {note} majeur est"
+msgstr "L'accord du {translate:ScaleChordNumth,%ScaleChord%} degré de {note} majeur est :"
+
+# Skeletons/PentatonicScale/Blues-ScaleToneChord7-Which:ANSWERINFO:rem
+msgid "Dans le cadre du blues, cet accord sera joué avec une 7ème mineure et sera noté : {chord:%ScaleChord%}7"
+msgstr "Dans le cadre du blues, cet accord sera joué avec une 7ème mineure et sera noté : {chord:%ScaleChord%}7."
+
+# Skeletons/PentatonicScale/Major-ChordCloser-I7:Question
+msgid "Quelle position de l'accord du {translate:ScaleChordNumth,%ScaleChord%} degre de {note} majeur est le plus proche de l'accord suivant"
+msgstr "Quelle position de l'accord du {translate:ScaleChordNumth,%ScaleChord%} degré de {note} majeur est le plus proche de l'accord suivant :"
+
+# Skeletons/PentatonicScale/Major-ChordCloser-I7:ANSWER
+msgid "Position de l'accord le plus proche"
+msgstr "Position de l'accord le plus proche :"
+
+# Skeletons/PentatonicScale/Major-ChordCloser-I7:ANSWERINFO
+msgid "Afin de bien mémoriser, suivre l'accompagnement à l'aide de ces accords en jouant sur les 1ers temps de chaque mesure. Chaque accord est joué 4 mesures de suite"
+msgstr "Afin de bien mémoriser, suivre l'accompagnement à l'aide de ces accords en jouant sur les 1ers temps de chaque mesure. Chaque accord est joué 4 mesures de suite."
+

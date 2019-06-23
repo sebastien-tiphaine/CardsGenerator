@@ -1,0 +1,9 @@
+
+M251-MSP2 : Aucun Score n'est transposé. 
+
+M251-MSP2 | MS-IdentificationRootNote (2) | Ré :
+ !!!  II-V-I_Majeur Ré Gamme_Majeure Position_%ScalePos% Corde_4
+ !!!  Ajouter le message : Ré sur le corde à vide n'est pas pertinant
+ 
+M251-MSP2 | MS-Chord-I7M (2) | Ré
+ !!! II-V-I_Majeur Ré Ré7M I7M 7M Accord Position_2 Corde_%ChordIString%

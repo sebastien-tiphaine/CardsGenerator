@@ -1,0 +1,3 @@
+http://decks.wikia.com/wiki/Anki_APKG_format_documentation
+
+https://github.com/ankidroid/Anki-Android/wiki/Database-Structure

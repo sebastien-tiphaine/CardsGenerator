@@ -1,0 +1,431 @@
+# MAIN TRANSLATION FILE
+# Copyright (C) 2018 Sébastien Tiphaine - Laguitare.ch
+# FIRST AUTHOR <sebastien@laguitare.ch>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language-Team: fr_FR <sebastien@laguitare.ch>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#### MusicLogic ####
+
+# Libs/MusicLogic.php:432 function translateNote : C
+msgctxt "translateNote"
+msgid "c"
+msgstr "Do"
+
+# Libs/MusicLogic.php:432 function translateNote : D
+msgctxt "translateNote"
+msgid "d"
+msgstr "Ré"
+
+# Libs/MusicLogic.php:432 function translateNote : E
+msgctxt "translateNote"
+msgid "e"
+msgstr "Mi"
+
+# Libs/MusicLogic.php:432 function translateNote : F
+msgctxt "translateNote"
+msgid "f"
+msgstr "Fa"
+
+# Libs/MusicLogic.php:432 function translateNote : G
+msgctxt "translateNote"
+msgid "g"
+msgstr "Sol"
+
+# Libs/MusicLogic.php:432 function translateNote : A
+msgctxt "translateNote"
+msgid "a"
+msgstr "La"
+
+# Libs/MusicLogic.php:432 function translateNote : B (h in the code to avoid confusion with flat sign : b)
+msgctxt "translateNote"
+msgid "h"
+msgstr "Si"
+
+# Libs/MusicLogic.php:444 function translateChord : C
+msgctxt "translateChord"
+msgid "c"
+msgstr "C"
+
+# Libs/MusicLogic.php:444 function translateChord : D
+msgctxt "translateChord"
+msgid "d"
+msgstr "D"
+
+# Libs/MusicLogic.php:444 function translateChord : E
+msgctxt "translateChord"
+msgid "e"
+msgstr "E"
+
+# Libs/MusicLogic.php:444 function translateChord: F
+msgctxt "translateChord"
+msgid "f"
+msgstr "F"
+
+# Libs/MusicLogic.php:444 function translateChord : G
+msgctxt "translateChord"
+msgid "g"
+msgstr "G"
+
+# Libs/MusicLogic.php:444 function translateChord : A
+msgctxt "translateChord"
+msgid "a"
+msgstr "A"
+
+# Libs/MusicLogic.php:444 function translateChord : B (h in the code to avoid confusion with flat sign : b)
+msgctxt "translateChord"
+msgid "h"
+msgstr "B"
+
+##### ChordNote #####
+
+# Libs/MusicTemplating.php:295 function _placeHolder_chordnote. 
+# msgstr is the string version of the note function in the chord
+msgctxt "ChordNote"
+msgid "1"
+msgstr "tonique"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_chordnote. 
+# msgstr is the string version of the note function in the chord
+msgctxt "ChordNote"
+msgid "2"
+msgstr "seconde"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_chordnote. 
+# msgstr is the string version of the note function in the chord
+msgctxt "ChordNote"
+msgid "3"
+msgstr "tierce"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_chordnote. 
+# msgstr is the string version of the note function in the chord
+msgctxt "ChordNote"
+msgid "4"
+msgstr "quarte"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_chordnote. 
+# msgstr is the string version of the note function in the chord
+msgctxt "ChordNote"
+msgid "5"
+msgstr "quinte"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_chordnote. 
+# msgstr is the string version of the note function in the chord
+msgctxt "ChordNote"
+msgid "6"
+msgstr "sixte"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_chordnote. 
+# msgstr is the string version of the note function in the chord
+msgctxt "ChordNote"
+msgid "7"
+msgstr "7ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_chordnote. 
+# msgstr is the string version of the note function in the chord
+msgctxt "ChordNote"
+msgid "9"
+msgstr "9ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_chordnote. 
+# msgstr is the string version of the note function in the chord
+msgctxt "ChordNote"
+msgid "11"
+msgstr "11ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_chordnote. 
+# msgstr is the string version of the note function in the chord
+msgctxt "ChordNote"
+msgid "13"
+msgstr "13ème"
+
+##### StringNumth #####
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate.
+# Translate the number of the string : ex : 1st of : 1st string 
+msgctxt "StringNumth"
+msgid "1"
+msgstr "1ère"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the string : ex : 2nd of : 2nd string 
+msgctxt "StringNumth"
+msgid "2"
+msgstr "2ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the string : ex : 3rd of : 3rd string 
+msgctxt "StringNumth"
+msgid "3"
+msgstr "3ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the string : ex : 4th of : 4th string 
+msgctxt "StringNumth"
+msgid "4"
+msgstr "4ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the string : ex : 5th of : 5th string 
+msgctxt "StringNumth"
+msgid "5"
+msgstr "5ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the string : ex : 6th of : 6th string 
+msgctxt "StringNumth"
+msgid "6"
+msgstr "6ème"
+
+##### ScalePosition #####
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate.
+# Translate the number of the scale position : ex : 1st of : 1st position 
+msgctxt "ScalePosition"
+msgid "1"
+msgstr "1ère"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the scale position : ex : 2nd of : 2nd position
+msgctxt "ScalePosition"
+msgid "2"
+msgstr "2ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the scale position : ex : 3rd of : 3rd position
+msgctxt "ScalePosition"
+msgid "3"
+msgstr "3ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the scale position : ex : 4th of : 4th position
+msgctxt "ScalePosition"
+msgid "4"
+msgstr "4ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the scale position : ex : 5th of : 5th position
+msgctxt "ScalePosition"
+msgid "5"
+msgstr "5ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the scale position : ex : 6th of : 6th position
+msgctxt "ScalePosition"
+msgid "6"
+msgstr "6ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the scale position : ex : 7th of : 7th position
+msgctxt "ScalePosition"
+msgid "7"
+msgstr "7ème"
+
+##### ScaleChordNumth #####
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate.
+# Translate the number of the scale-chord : ex : 1st of : 1st scale-chord 
+msgctxt "ScaleChordNumth"
+msgid "1"
+msgstr "1er"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the scale-chord : ex : 2nd of : 2nd scale-chord 
+msgctxt "ScaleChordNumth"
+msgid "2"
+msgstr "2ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the scale-chord : ex : 3rd of : 3rd scale-chord 
+msgctxt "ScaleChordNumth"
+msgid "3"
+msgstr "3ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the scale-chord : ex : 4th of : 4th scale-chord 
+msgctxt "ScaleChordNumth"
+msgid "4"
+msgstr "4ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the scale-chord : ex : 5th of : 5th scale-chord 
+msgctxt "ScaleChordNumth"
+msgid "5"
+msgstr "5ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the scale-chord : ex : 6th of : 6th scale-chord 
+msgctxt "ScaleChordNumth"
+msgid "6"
+msgstr "6ème"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the scale-chord : ex : 7th of : 7th scale-chord 
+msgctxt "ScaleChordNumth"
+msgid "7"
+msgstr "7ème"
+
+##### FretNumth #####
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "0"
+msgstr "sur la corde à vide"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "1"
+msgstr "en 1ère case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "2"
+msgstr "en 2ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "3"
+msgstr "en 3ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "5"
+msgstr "en 5ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "6"
+msgstr "en 6ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "7"
+msgstr "en 7ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "8"
+msgstr "en 8ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "9"
+msgstr "en 9ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "10"
+msgstr "en 10ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "11"
+msgstr "en 11ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "12"
+msgstr "en 12ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "13"
+msgstr "en 13ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "14"
+msgstr "en 14ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
+msgid "15"
+msgstr "en 15ème case"
+
+# tempo sound label 120bpm
+msgid "tempo 120 :"
+msgstr "tempo 120 :"
+
+# tempo sound label 140bpm
+msgid "tempo 140 :"
+msgstr "tempo 140 :"
+
+# tempo sound label 160bpm
+msgid "tempo 160 :"
+msgstr "tempo 160 :"
+
+#### Common Words ####
+# Sound title
+msgid "Accompagnement"
+msgstr "Accompagnement :"
+
+# Sound title
+msgid "Accompagnement {chord:%Chord%}%ChordQuality%"
+msgstr "Accompagnement {chord:%Chord%}%ChordQuality% :"
+
+# Scale
+msgid "Gamme"
+msgstr "Gamme"
+
+# Major scale
+msgid "Gamme Majeure"
+msgstr "Gamme Majeure"
+
+# Major pentatonic scale
+msgid "Pentatonique Majeure"
+msgstr "Pentatonique Majeure"
+
+# Minor scale
+msgid "Gamme Mineure"
+msgstr "Gamme Mineure"
+
+# scale or chord position 1,2, etc
+msgid "Position %ScalePos%"
+msgstr "Position %ScalePos%"
+
+# String 1,2, etc
+msgid "Corde %ScaleRootString%"
+msgstr "Corde %ScaleRootString%"
+
+# chord
+msgid "Accord"
+msgstr "Accord"
+
+# Common Rem
+msgid "NB : La note {note} placée sur la corde à vide, n'est pas pertinante"
+msgstr "NB : La note {note} placée sur la corde à vide, n'est pas pertinante."
+
+msgid "NB : Cette note se joue avec le 2ème doigt"
+msgstr "NB : Cette note se joue avec le 2ème doigt."
+
+msgid "NB : Cette note se joue avec le 4ème doigt"
+msgstr "NB : Cette note se joue avec le 4ème doigt."
+
+#### Output ####
+
+# Libs/OutputPDF.php:136. Used to display the card number on PDF front page
+msgid "Carte %num%"
+msgstr "Carte %num%"
+
+
+

@@ -1,0 +1,178 @@
+
+##### Exemple de fichier
+
+;;;;; Card properties
+Card.Name = "CardText(
+				'Gamme majeure {translate:ScalePosition,%ScalePos%} position - Accord de {chord:%Chord%}%ChordQuality%',
+				'SkeletonsMajorScale',
+				'[%GroupId%-{note}] '
+		   );"; 
+
+Card.Category  = "array()";
+Card.ScaleType = "MAJOR";
+
+;;;;; Question ;;;;;;;;;;;;;;;;;;
+
+Card.Question = "CardText(
+					'Dans quelle position de la gamme de {note} majeur cet accord est-il contenu',
+					'SkeletonsMajorScale'
+			   );";
+			   
+;;;;; QuestionInfo ;;;;;;;;;;;;;;;;;;
+
+Card.QuestionInfo.InfoText.type        = "text";
+Card.QuestionInfo.InfoText.params.text = "{chord:%Chord%}%ChordQuality%";
+Card.QuestionInfo.InfoText.params.display = "info";
+Card.QuestionInfo.InfoText.params.zone  = "top";
+Card.QuestionInfo.InfoText.params.order = 1;
+
+Card.QuestionInfo.Diagram.type        = "image";
+Card.QuestionInfo.Diagram.params.src = "{source}/svg/GammeMajPos%ScalePos%-%ImageExt%.svg";
+Card.QuestionInfo.Diagram.params.setNeckPosNum = "auto";
+Card.QuestionInfo.Diagram.params.zone  = "center";
+Card.QuestionInfo.Diagram.params.order = 1;	
+
+;;;;; Answer ;;;;;;;;;;;;;;;;;;
+
+Card.Answer	= "CardText(
+					'Cet accord est contenu dans la {translate:ScalePosition,%ScalePos%} position de la gamme de {note} majeur',
+					'SkeletonsMajorScale'
+			   );";
+
+
+
+##### Exemple pour un info vide
+
+Card.QuestionInfo = "array()";	
+
+##### Exemple infoList
+Card.AnswerInfo.InfoList.type           = "text";
+Card.AnswerInfo.InfoList.params.text    = "CardText(
+											'<div class=infolist><ul><li>(1) Tonique,</li><li>(2) Seconde majeure,</li><li>(3) Tierce majeure,</li><li>(5) Quinte juste,</li><li>(6) Sixte majeure,</li><li>Blue note : (b3) tierce mineure.</li></ul></div>',
+											'SkeletonsPentatonicScale'
+										  );";
+Card.AnswerInfo.InfoList.params.display = "info";
+Card.AnswerInfo.InfoList.params.zone    = "top";
+Card.AnswerInfo.InfoList.params.order   = 1;
+
+
+##### Condition SingleCard
+Card.CallBackCondition[] = "SingleCard";
+Card.CallBackCondition[] = "array('SingleCard', true)";
+
+##### Exemple de Groupe horizontal :
+
+Group.Diagrams.type = "horiz";
+Group.Diagrams.name = "diagrams";
+
+Card.AnswerInfo.DiagramPenta.type          = "image";
+Card.AnswerInfo.DiagramPenta.params.group = "^Group.Diagrams";
+Card.AnswerInfo.DiagramPenta.params.zone    = "center";
+Card.AnswerInfo.DiagramPenta.params.order   = 1;
+
+##### Exemple de text 
+
+Card.AnswerInfo.Advice.type = "text";
+Card.AnswerInfo.Advice.params.text    = "CardText('Afin de bien mémoriser, jouer l\'accord de {chord:%Chord%}%ChordQuality% puis la gamme pentatonique en partant de la fondamentale de l\'accord', 'SkeletonsPentatonicScale');";
+Card.AnswerInfo.Advice.params.display = "rem";
+Card.AnswerInfo.Advice.params.group   = "Advice";
+Card.AnswerInfo.Advice.params.zone    = "bottom";
+Card.AnswerInfo.Advice.params.order   = 1;
+
+##### Exemple de score 
+
+Card.AnswerInfo.Score.type = "score";
+Card.AnswerInfo.Score.params.src 		= "{source}/mscore/PentaMaj-Pos%ScalePos%-ToneA-ScaleAnd%ImageExt%.mscx";
+Card.AnswerInfo.Score.params.refNote    = "a";
+Card.AnswerInfo.Score.params.refString 	= %ScaleRootString%; 
+Card.AnswerInfo.Score.params.minFret 	= "%MinFret%";
+Card.AnswerInfo.Score.params.group   	= "Advice";
+Card.AnswerInfo.Score.params.zone    	= "bottom";
+Card.AnswerInfo.Score.params.order   	= 2;
+
+;;Media3.params.title 		= "My scale lick test {note}";
+;;'refSvg'      => '{source}/PentaMajPos%ScalePos%-bn.svg',
+;;'refTone'     => 'a',
+;;'refToneType' => CardGenerator::MAJOR,
+
+##### Exemple de diagram
+
+Card.AnswerInfo.DiagramChord.type          = "image";
+Card.AnswerInfo.DiagramChord.params.src    = "{source}/svg/GammeMajPos%ScalePos%-%ImageExt%.svg";
+Card.AnswerInfo.DiagramChord.params.setNeckPosNum 	= "auto";
+Card.AnswerInfo.DiagramChord.params.setTitle = "{chord:%Chord%}%ChordQuality%";
+Card.AnswerInfo.DiagramChord.params.group[] = "Diagrams";
+Card.AnswerInfo.DiagramChord.params.group[] = "^Group.DiagramsImgs";
+Card.AnswerInfo.DiagramChord.params.zone    = "center";
+Card.AnswerInfo.DiagramChord.params.order   = 2;
+
+Card.QuestionInfo.Diagram.type        = "image";
+Card.QuestionInfo.Diagram.params.src = "{source}/svg/GammeMajPos%ScalePos%-%ImageExt%.svg";
+Card.QuestionInfo.Diagram.params.setTitle = "{chord:%Chord%}%ChordQuality%";
+Card.QuestionInfo.Diagram.params.setNeckPosNum = "auto";
+Card.QuestionInfo.Diagram.params.zone  = "center";
+Card.QuestionInfo.Diagram.params.order = 1;
+
+Card.AnswerInfo.DiagramChord.type          = "image";
+Card.AnswerInfo.DiagramChord.params.src    = "{source}/svg/GammeMajPos%ScalePos%-%ImageExt%.svg";
+Card.AnswerInfo.DiagramChord.params.setNeckPosNum 	= "auto";
+Card.AnswerInfo.DiagramChord.params.setTitle = "{chord:%Chord%}%ChordQuality%";
+Card.AnswerInfo.DiagramChord.params.importSubTramCircles = "array('{source}/svg/GammeMajPos%ScalePos%.svg')"
+Card.AnswerInfo.DiagramChord.params.group[] = "^Group.Diagrams";
+Card.AnswerInfo.DiagramChord.params.zone    = "center";
+Card.AnswerInfo.DiagramChord.params.order   = 1;
+
+
+###### Exemple son + text
+Card.AnswerInfo.SoundText.type = "text";
+Card.AnswerInfo.SoundText.params.text = "CardText('Pour bien mémoriser, jouer la gamme ou improviser sur l\'accompagnement suivant', 'SkeletonsPentatonicScale')";
+Card.AnswerInfo.SoundText.params.display = "title";
+Card.AnswerInfo.SoundText.params.group   = "backingtracks";
+Card.AnswerInfo.SoundText.params.zone  	 = "footer";
+Card.AnswerInfo.SoundText.params.order   = -1;
+
+Card.AnswerInfo.Sound1.type = "sound";
+Card.AnswerInfo.Sound1.params.src[] = "{source}/audio/II_V_I-long-{utnote}-120bpm.ogg";
+Card.AnswerInfo.Sound1.params.src[] = "{source}/audio/II_V_I-long-{utnote}-120bpm.mp3";
+Card.AnswerInfo.Sound1.params.src[] = "{source}/audio/II_V_I-long-{utnote}-120bpm.m4a";
+Card.AnswerInfo.Sound1.params.label = "CardText('tempo 120 :')";
+Card.AnswerInfo.Sound1.params.group[] = "backingtracks";
+Card.AnswerInfo.Sound1.params.group[] = "sounds";
+Card.AnswerInfo.Sound1.params.zone    = "footer";
+
+
+######## autre exemple ######
+
+Card.AnswerInfo.SoundText.type = "text";
+Card.AnswerInfo.SoundText.params.text = "CardText('Puis improviser sur l\'accompagnement suivant en respectant la sonorité de l\'accord', 'SkeletonsMajorScale')";
+Card.AnswerInfo.SoundText.params.display = "title";
+Card.AnswerInfo.SoundText.params.group   = "backingtracks";
+Card.AnswerInfo.SoundText.params.zone  	 = "footer";
+Card.AnswerInfo.SoundText.params.order   = -1;
+
+Card.AnswerInfo.Sound1.type = "sound";
+Card.AnswerInfo.Sound1.params.src[] = "{source}/audio/V-{utnote}-120bpm.ogg";
+Card.AnswerInfo.Sound1.params.src[] = "{source}/audio/V-long-{utnote}-120bpm.mp3";
+Card.AnswerInfo.Sound1.params.src[] = "{source}/audio/V-long-{utnote}-120bpm.m4a";
+Card.AnswerInfo.Sound1.params.label = "CardText('tempo 120 :')";
+Card.AnswerInfo.Sound1.params.group[] = "backingtracks";
+Card.AnswerInfo.Sound1.params.group[] = "sounds";
+Card.AnswerInfo.Sound1.params.zone    = "footer";
+
+Card.AnswerInfo.Sound2.type = "sound";
+Card.AnswerInfo.Sound2.params.src[] = "{source}/audio/V-{utnote}-140bpm.ogg";
+Card.AnswerInfo.Sound2.params.src[] = "{source}/audio/V-long-{utnote}-140bpm.mp3";
+Card.AnswerInfo.Sound2.params.src[] = "{source}/audio/V-long-{utnote}-140bpm.m4a";
+Card.AnswerInfo.Sound2.params.label = "CardText('tempo 140 :')";
+Card.AnswerInfo.Sound2.params.group[] = "backingtracks";
+Card.AnswerInfo.Sound2.params.group[] = "sounds";
+Card.AnswerInfo.Sound2.params.zone    = "footer";
+
+Card.AnswerInfo.Sound3.type = "sound";
+Card.AnswerInfo.Sound3.params.src[] = "{source}/audio/V-{utnote}-160bpm.ogg";
+Card.AnswerInfo.Sound3.params.src[] = "{source}/audio/V-long-{utnote}-160bpm.mp3";
+Card.AnswerInfo.Sound3.params.src[] = "{source}/audio/V-long-{utnote}-160bpm.m4a";
+Card.AnswerInfo.Sound3.params.label = "CardText('tempo 160 :')";
+Card.AnswerInfo.Sound3.params.group[] = "backingtracks";
+Card.AnswerInfo.Sound3.params.group[] = "sounds";
+Card.AnswerInfo.Sound3.params.zone    = "footer";
