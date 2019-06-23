@@ -1,0 +1,77 @@
+line.v_lines,
+line.h_lines{
+	stroke:#1C1C1C;
+}
+
+.landscape #hline6,
+.portrait #vline1{
+	stroke-width:4;
+}
+.landscape #hline5,
+.portrait #vline2{
+	stroke-width:3.2;
+}
+.landscape #hline4,
+.portrait #vline3{
+	stroke-width:2.8;
+}
+.landscape #hline3,
+.portrait #vline4{
+	stroke-width:2.2;
+}
+.landscape #hline2,
+.portrait #vline5{
+	stroke-width:1.5;
+}
+.landscape #hline1,
+.portrait #vline6{
+	stroke-width:1;
+}
+
+circle.subTram{
+	fill:#e6e6e6;
+}
+
+circle.blackcircle{
+	fill:black
+}
+
+text.txt_note{
+	font-family:Roboto, Verdana, FreeSans, Sans;
+	text-anchor:middle;
+	fill:white;
+	stroke:white;
+	font-size:16;
+}
+
+rect.neckbackground{
+	stroke:#1C1C1C; 
+	stroke-width:1; 
+	fill:#e1930e;
+}
+
+text.txt_title{
+	text-anchor:middle;
+	font-family:Roboto, Verdana, FreeSans, Sans; 
+	font-size:22;
+	fill:#bc3315;
+	stroke:#bc3315; 
+	stroke-width:1;
+}
+
+text.txt_extra{
+	text-anchor:middle; 
+	font-family:Roboto, Verdana, FreeSans, Sans; 
+	font-size:22;
+	fill:#bc3315;
+	stroke:#bc3315; 
+	stroke-width:1;
+}
+
+/* copyrights */
+text.txt_copyrights{
+	text-anchor:middle; 
+	font-family:Roboto, Verdana, FreeSans, Sans;
+	font-size:8; 
+	fill:#666666;
+}

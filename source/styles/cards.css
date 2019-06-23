@@ -1,0 +1,252 @@
+html {
+	background: #3FB8AF;
+	color:#3c3c3c;
+	font-family: Roboto, Verdana, FreeSans, Sans;
+}
+
+.previewContainer,
+.backcontainer,
+.frontcontainer {
+	font-family: Roboto, Verdana, FreeSans, Sans;
+	text-align: center;
+	margin: auto;
+	width: 80%;
+}
+
+.previewContainer{
+	text-align: left;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.previewContainer .previewNavbuttons,
+.previewContainer .previewCardDatas{
+	text-align: left;
+	padding:15px;
+	border: 1px solid white;
+	border-radius: 7px;
+	-webkit-background-clip: padding-box; 
+	-moz-background-clip:    padding; 
+	background-clip:         padding-box;
+}
+
+.backcontainer{
+	margin-top:15px;
+}
+
+.headercontainer{
+	color: #fff;
+	background: #00796b;
+	font-weight: 400;
+	/*font-size: 2.8em;*/
+	font-size: 3.2vw;
+	padding: 15px;
+	-webkit-background-clip: padding-box; 
+	-moz-background-clip:    padding; 
+	background-clip:         padding-box;
+}
+
+.frontcontainer .headercontainer{
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.backcontainer .headercontainer{
+	border: 1px solid white;
+	-webkit-border-radius: 7px 7px 0 0; 
+	-moz-border-radius: 7px 7px 0 0; 
+	border-radius: 7px 7px 0 0;
+	-webkit-background-clip: padding-box; 
+	-moz-background-clip:    padding; 
+	background-clip:         padding-box;
+}
+
+.contentcontainer {
+	font-family: Roboto, Verdana, FreeSans, Sans;
+	font-weight: 500;
+	padding: 15px 15px 30px 15px;
+	/*font-size: 2.8em;*/
+	font-size: 3.2vw;
+	background: #fff;
+	text-align:center;
+	color:#bc3315;
+}
+
+.footercontentcontainer{
+	font-family: Roboto, Verdana, FreeSans, Sans;
+	font-weight: 500;
+    padding: 15px 15px 30px 15px;
+	background: #20272b;
+	text-align:center;
+	color:#fff;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	background-clip:padding-box;
+}
+
+.bottomcontainer {
+	font-family: Roboto, Verdana, FreeSans, Sans;
+	font-weight: 100;
+	padding: 5px 15px 5px 15px;
+	/*font-size: 1em*/;
+	font-size: 1vw;
+	background: #20272b;
+	color:#fff;
+	-webkit-border-radius: 0 0 7px 7px; 
+	-moz-border-radius: 0 0 7px 7px; 
+	border-radius: 0 0 7px 7px;
+	border: 1px solid white;
+	-webkit-background-clip: padding-box; 
+	-moz-background-clip:    padding; 
+	background-clip:         padding-box;
+}
+
+/* ####### Items ####### */
+
+.headertitle{
+	font-family: Roboto, Verdana, FreeSans, Sans;
+	font-weight: 100;
+	padding: 5px 15px 5px 15px;
+	/*font-size: 1em;*/
+	font-size: 1vw;
+	background: #20272b;
+	color:#fff;
+	-webkit-border-radius: 7px 7px 0 0; 
+	-moz-border-radius: 7px 7px 0 0;  
+	border-radius: 7px 7px 0 0; 
+	border: 1px solid white;
+	-webkit-background-clip: padding-box; 
+	-moz-background-clip:    padding; 
+	background-clip:         padding-box;	
+}
+
+.bottomcontainer a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.bottomcontainer a:hover{
+	text-decoration:underline;
+}
+
+/*div.image{
+	padding:0 22%;
+}
+
+.contentcontainer div.horiz15{
+	padding:0 5%;
+}*/
+
+.text-title{
+	/*font-size: 0.55em;*/
+	font-size: 2.9vw;
+	font-weight: 500;
+	padding-bottom:15px;
+}
+
+.text-info{
+	/*font-size: 0.8em;*/
+	font-size: 2.4vw;
+	color:#bc3315;
+}
+
+.group-Advice .text-title{
+	font-size: 1.8vw;
+}
+
+.mobile .group-Advice .text-title{
+	font-size: 2.2vw;
+}
+
+.group-Advice .text-info{
+	font-size: 1.5vw;
+}
+
+.mobile .group-Advice .text-info{
+	font-size: 1.9vw;
+}
+
+.footercontentcontainer .text-title{
+	color:#fff;
+	font-size: 1.8vw;
+}
+
+.text-rem{
+    /*font-size: 0.6em;*/
+	font-size: 1.2vw;
+	font-weight: 400;
+	color:#bc3315;
+	padding:10px 0 10px 0;
+}
+
+.footercontentcontainer .text-rem{
+	color:#fff;
+	font-size: 1.2vw;
+	font-weight: 400;
+}
+
+.text-rem  ul,
+.text-rem  ol,
+.text-info ul,
+.text-info ol,
+.text-rem .infolist,
+.text-info .infolist{
+	text-align:left;
+	display:table;
+	margin:0 auto 1% auto;
+}
+
+.soundcontainer table tr td{
+    width:45%;
+}
+
+.soundcontainer table tr td.audioLabelContainer{
+    text-align:right;
+    align-content:right;
+}
+
+.soundcontainer table tr td.audioControlContainer{
+    text-align:left;
+    align-content:left;
+}
+
+.soundcontainer table tr td,
+.soundcontainer label{
+    /*font-size: 1.2em;*/
+	font-size: 1.2vw;
+	font-weight: 500;
+	margin-right:10px;
+    text-align:right;
+    align-content:right;
+}
+
+.footercontentcontainer .soundcontainer table tr td,
+.footercontentcontainer .soundcontainer label{
+	color:#fff;
+}
+
+.footercontentcontainer .soundcontainer table tr td a{
+	color:#fff
+}
+
+.audioLoading{
+	display:none;
+	visibility:hidden;	
+}
+
+.audioLoading img{
+	display:none;
+	visibility:hidden;
+	height:0;
+	width:0;
+}
+
+
+.group-Advice,
+.group-advice{
+	border: 1px dotted;
+	margin: 2%;
+	padding: 2%;
+	background-color: #f6f6f6;
+}
+

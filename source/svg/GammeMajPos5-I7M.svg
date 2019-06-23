@@ -1,0 +1,17 @@
+
+        <svg id="mainCanvas" class="portrait" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www/w3/org/1999/xlink" width="300" height="360" style="background-color: rgb(255, 255, 255);">
+            <svg id="neckArea" class="6" name="5"><line id="hline1" class="h_lines" x1="65" y1="85" x2="240" y2="85" stroke="#1C1C1C"></line><line id="hline2" class="h_lines" x1="65" y1="130" x2="240" y2="130" stroke="#1C1C1C"></line><line id="hline3" class="h_lines" x1="65" y1="175" x2="240" y2="175" stroke="#1C1C1C"></line><line id="hline4" class="h_lines" x1="65" y1="220" x2="240" y2="220" stroke="#1C1C1C"></line><line id="hline5" class="h_lines" x1="65" y1="265" x2="240" y2="265" stroke="#1C1C1C"></line><line id="hline6" class="h_lines" x1="65" y1="310" x2="240" y2="310" stroke="#1C1C1C"></line><line id="vline1" class="v_lines" x1="65" y1="85" x2="65" y2="310" stroke="#1C1C1C"></line><line id="vline2" class="v_lines" x1="100" y1="85" x2="100" y2="310" stroke="#1C1C1C"></line><line id="vline3" class="v_lines" x1="135" y1="85" x2="135" y2="310" stroke="#1C1C1C"></line><line id="vline4" class="v_lines" x1="170" y1="85" x2="170" y2="310" stroke="#1C1C1C"></line><line id="vline5" class="v_lines" x1="205" y1="85" x2="205" y2="310" stroke="#1C1C1C"></line><line id="vline6" class="v_lines" x1="240" y1="85" x2="240" y2="310" stroke="#1C1C1C"></line></svg>
+            <svg id="nameArea">
+            </svg>
+            <svg id="nutArea" class="65" name="85">
+            </svg>
+            <svg id="barreArea">
+            </svg>
+            <svg id="noteArea">
+            <g id="Sn2Fn3" class="noteGroup"><circle class="shape_circle" cx="135" cy="152.5" r="16" fill="black"></circle><text class="txt_note" x="135" y="159.83333333333334" text-anchor="middle" font-family="Arial" font-size="22" fill="white" stroke="white">5</text></g><g id="Sn2Fn5" class="noteGroup"><circle class="shape_circle" cx="205" cy="152.5" r="16" fill="black"></circle><text class="txt_note" x="205" y="159.83333333333334" text-anchor="middle" font-family="Arial" font-size="22" fill="white" stroke="white">3</text></g><g id="Sn4Fn6" class="noteGroup"><circle class="shape_circle" cx="240" cy="242.5" r="16" fill="black"></circle><text class="txt_note" x="240" y="249.83333333333334" text-anchor="middle" font-family="Arial" font-size="22" fill="white" stroke="white">7</text></g><g id="Sn2Fn4" class="noteGroup"><circle class="shape_circle" cx="170" cy="152.5" r="16" fill="#000000"></circle><text class="txt_note" x="170" y="159.83333333333334" text-anchor="middle" font-family="Arial" font-size="22" fill="white" stroke="white">1</text></g></svg>
+            <svg id="lineArea">
+            </svg>
+            <svg id="txtArea">
+            </svg>
+        </svg>
+    

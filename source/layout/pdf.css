@@ -1,0 +1,164 @@
+@page {
+    margin: 2cm 2cm;
+    background-color:#3FB8AF;
+    @top-center {
+        content: "{{MainTitle}}";
+        vertical-align: middle;
+        color:#3c3c3c;
+    }
+    @bottom-right {
+		font-size: 12px;
+		color:#3c3c3c;
+        content: "Page {{Page}}" 
+    }
+    @bottom-left {
+		font-size: 12px;
+		color:#3c3c3c;
+        content: "Sébastien Tiphaine 2018 - sebastien@laguitare.ch - https://laguitare.ch"; 
+    }
+    @left-top {}
+}
+		
+html {
+	color:#3c3c3c;
+	font-family: Roboto, Verdana, FreeSans, Sans;
+}
+
+.backcontainer,
+.frontcontainer {
+	font-family: Roboto, Verdana, FreeSans, Sans;
+	text-align: center;
+	margin: auto;
+	width: 80%;
+}
+
+.backcontainer{
+	margin-top:25px;
+}
+
+.headercontainer{
+	color: #fff;
+	background: #00796b;
+	font-weight: 400;
+	font-size: 20px;
+	padding: 15px;
+	background-clip: padding-box;
+}
+
+.frontcontainer .headercontainer{
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.backcontainer .headercontainer{
+	border: 1px solid white;
+	border-radius: 7px 7px 0 0;
+	background-clip: padding-box;
+}
+
+.contentcontainer {
+	font-family: Roboto, Verdana, FreeSans, Sans;
+	font-weight: 500;
+	padding: 15px;
+	font-size: 20px;
+	background: #fff;
+	text-align:center;
+	color:#bc3315;
+}
+
+div.image{
+	padding:0 22%;
+}
+
+.contentcontainer div.horiz15{
+	padding:0 5%;
+}
+
+.bottomcontainer {
+	font-family: Roboto, Verdana, FreeSans, Sans;
+	font-weight: 100;
+	padding: 5px 15px 5px 15px;
+	font-size: 9px;
+	background: #20272b;
+	color:#fff;
+	border-radius: 0 0 7px 7px;
+	border: 1px solid white;
+	background-clip: padding-box;
+}
+
+.headertitle{
+	font-family: Roboto, Verdana, FreeSans, Sans;
+	font-weight: 100;
+	padding: 5px 15px 5px 15px;
+	font-size: 9px;
+	background: #20272b;
+	color:#fff;
+	border-radius: 7px 7px 0 0; 
+	border: 1px solid white;
+	background-clip: padding-box;	
+}
+
+.bottomcontainer a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.bottomcontainer a:hover{
+	text-decoration:underline;
+}
+
+.info .infolist{
+	text-align:left;
+	display:table;
+	margin:0 auto;
+}
+
+img{
+	height:188px;
+}
+
+.soundcontainer {
+	font-family: Roboto, Verdana, FreeSans, Sans;
+	font-weight: 500;
+    padding: 9px 15px 10px 15px;
+	background: #20272b;
+	text-align:center;
+	color:#fff;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	margin:0;
+	background-clip: padding-box;
+}
+
+.soundcontainer div.audio,
+.soundcontainer span.audiolabel{
+	font-size: 12px;
+	font-weight: 500;
+	color:#fff;
+	margin-right:10px;
+}
+
+.soundcontainer .soundtitle{
+	font-size: 15px;
+	font-weight: 500;
+	color:#fff;
+	padding-bottom:15px;
+}
+
+.soundcontainer a{
+	color:#fff;
+	text-decoration:underline;
+}
+
+.rem{
+	font-family: Roboto, Verdana, FreeSans, Sans;
+	font-size: 15px;
+	text-align:center;
+	color:#bc3315;
+	padding:10px 0 10px 0;
+}
+
+img.horiz15{
+	max-width:500px;
+	max-height:181px;
+}
