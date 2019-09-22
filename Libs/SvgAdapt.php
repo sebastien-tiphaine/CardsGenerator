@@ -93,6 +93,11 @@ class SvgAdapt extends XmlHandlerAbstract{
 				// no
 				$oXmlCss = simplexml_load_string('<style type="text/css"><![CDATA['."\n".$strCss."\n".']]></style>');
 				$oNeckArea = $this->_getChild($oXml, 'svg', 'neckArea');
+				
+				if(!$oNeckArea){
+                    $oNeckArea = $this->_getChild($oXml, 'g', 'neckArea');
+				}
+				
 				// inserting css
 				$oTargetDom = dom_import_simplexml($oNeckArea);
 				$oInsertDom = $oTargetDom->ownerDocument->importNode(dom_import_simplexml($oXmlCss), true);
@@ -145,6 +150,11 @@ class SvgAdapt extends XmlHandlerAbstract{
 			$oXml   = $this->getXml();
 			// getting child
 			$oNeckArea = $this->_getChild($oXml, 'svg', 'neckArea');
+			
+			if(!$oNeckArea){
+                $oNeckArea = $this->_getChild($oXml, 'g', 'neckArea');
+			}
+			
 			// getting the first horizontal line
 			$oLineH1 = $this->_getChild($oNeckArea, 'line', 'hline1');
 			// defining rect default properties
@@ -223,6 +233,10 @@ class SvgAdapt extends XmlHandlerAbstract{
 				
 			$oXml       = $this->getXml();
 			$oNoteArea  = $this->_getChild($oXml, 'svg', $strArea);
+			
+			if(!$oNoteArea){
+                $oNoteArea  = $this->_getChild($oXml, 'g', $strArea);
+			}
 			
 			if(!$oNoteArea){
 				// area is not set
@@ -324,7 +338,11 @@ class SvgAdapt extends XmlHandlerAbstract{
 			// getting noteArea container
 			$oXml = $this->getXml();
 			$oNoteArea = $this->_getChild($oXml, 'svg', 'noteArea');
-					
+			
+			if(!$oNoteArea){
+                $oNoteArea = $this->_getChild($oXml, 'g', 'noteArea');
+			}
+			
 			if(!$oNoteArea){
 				return $this;
 			}
@@ -389,8 +407,17 @@ class SvgAdapt extends XmlHandlerAbstract{
 				$oXml     = $this->getXml();
 			}
 			
+			// getting noteArea 
+			$oNoteArea = $this->_getChild($oXml, 'svg', 'noteArea');
+			
+			if(!$oNoteArea){
+                $oNoteArea = $this->_getChild($oXml, 'g', 'noteArea');
+			}
+			
 			// getting noteArea children
-			$arrCntns = $this->_getChild($oXml, 'svg', 'noteArea')->children();
+			$arrCntns = $oNoteArea->children();
+			
+			
 			// setting default result array
 			$arrData  = array();
 			
@@ -483,9 +510,17 @@ class SvgAdapt extends XmlHandlerAbstract{
 			// getting parent container
 			$oNoteAreaChildsGN = $this->_getChild($oXmlGN, 'svg', 'noteArea')->children();
 			
+			$oNoteArea = $this->_getChild($oXmlGN, 'svg', 'noteArea');
+			
+			if(!$oNoteArea){
+                $oNoteArea = $this->_getChild($oXmlGN, 'g', 'noteArea');
+			}
+			
+			$oNoteAreaChildsGN = $oNoteArea->children();
+			
 			// loading svg xml		
 			$oXml       = $this->getXml();
-			$oNoteArea  = $this->_getChild($oXml, 'svg', 'noteArea');
+			//$oNoteArea  = $this->_getChild($oXml, 'svg', 'noteArea');
 			$oG         = $this->_getChild($oNoteArea, 'g');
 			// does target has already some circles ?
 			$intHasTargetCircles = (is_null($oG)) ? false : true;
@@ -711,6 +746,10 @@ class SvgAdapt extends XmlHandlerAbstract{
 			// getting child
 			$oChild = $this->_getChild($oXml, 'svg', 'neckInfoArea');
 			
+			if(!$oChild){
+                $oChild = $this->_getChild($oXml, 'g', 'neckInfoArea');
+			}
+			
 			// adding child
 			if(!$oChild){
 				$oChild = $oXml->addChild('svg');
@@ -755,6 +794,10 @@ class SvgAdapt extends XmlHandlerAbstract{
 			$oChild = $this->_getChild($oXml, 'svg', 'txtArea');
 			
 			if(!$oChild){
+                $oChild = $this->_getChild($oXml, 'g', 'txtArea');
+			}
+			
+			if(!$oChild){
 					// required child is not found
 					return $this;
 			}
@@ -781,6 +824,12 @@ class SvgAdapt extends XmlHandlerAbstract{
 			$oXml   = $this->getXml();
 			// getting child
 			$oNameArea = $this->_getChild($oXml, 'svg', 'nameArea');
+			
+			// do we have the new svg version 
+			if(!$oNameArea){
+                // yes
+                $oNameArea = $this->_getChild($oXml, 'g', 'nameArea');
+			}
 			
 			$oText = $oNameArea->addChild('text', $strTitle);
 			$oText->addAttribute('class', 'txt_title');
@@ -836,6 +885,10 @@ class SvgAdapt extends XmlHandlerAbstract{
 			$oXml       = $this->getXml();
 			$oNoteArea  = $this->_getChild($oXml, 'svg', 'noteArea');
 			
+			if(!$oNoteArea){
+                $oNoteArea  = $this->_getChild($oXml, 'g', 'noteArea');
+			}
+			
 			// getting coords
 			$arrCoords  = $this->_getCircleCoords($intString, $intFret, $this->isHoriz());
 						
@@ -868,6 +921,10 @@ class SvgAdapt extends XmlHandlerAbstract{
 			// getting max pos from frets number
 			$oXml       = $this->getXml();
 			$oNeckArea  = $this->_getChild($oXml, 'svg', 'neckArea');
+	
+            if(!$oNeckArea){
+                $oNeckArea  = $this->_getChild($oXml, 'g', 'neckArea');
+            }
 	
 			// defining which type of line has to be count
 			$strId = ($this->isHoriz())? 'vline':'hline';
@@ -909,6 +966,11 @@ class SvgAdapt extends XmlHandlerAbstract{
 			
 			$oXml       = $this->getXml();
 			$oNeckArea  = $this->_getChild($oXml, 'svg', 'neckArea');
+			
+			if(!$oNeckArea){
+                $oNeckArea  = $this->_getChild($oXml, 'g', 'neckArea');
+			}
+			
 			$oTargetDom = dom_import_simplexml($oNeckArea);
 			
 			// ensure $mFret to be an array

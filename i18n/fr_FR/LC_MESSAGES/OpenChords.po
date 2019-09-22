@@ -1,0 +1,73 @@
+# TRANSLATION FILE FOR OPENCHORDS
+# Copyright (C) 2019 Sébastien Tiphaine - Laguitare.ch
+# FIRST AUTHOR <sebastien@laguitare.ch>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language-Team: fr_FR <sebastien@laguitare.ch>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Comment se joue l'accord suivant"
+msgstr "Comment se joue l'accord suivant ?"
+
+msgid "L'accord se joue ainsi"
+msgstr "L'accord se joue ainsi :"
+
+msgctxt "translateOpenChord"
+msgid "C"
+msgstr "C (Do)"
+
+msgctxt "translateOpenChord"
+msgid "Cm"
+msgstr "Cm (Do mineur)"
+
+msgctxt "translateOpenChord"
+msgid "D"
+msgstr "D (Ré)"
+
+msgctxt "translateOpenChord"
+msgid "Dm"
+msgstr "Dm (Ré mineur)"
+
+msgctxt "translateOpenChord"
+msgid "E"
+msgstr "E (Mi)"
+
+msgctxt "translateOpenChord"
+msgid "Em"
+msgstr "Em (Mi mineur)"
+
+msgctxt "translateOpenChord"
+msgid "F"
+msgstr "F (Fa)"
+
+msgctxt "translateOpenChord"
+msgid "Fm"
+msgstr "Fm (Fa mineur)"
+
+msgctxt "translateOpenChord"
+msgid "G"
+msgstr "G (Sol)"
+
+msgctxt "translateOpenChord"
+msgid "Gm"
+msgstr "Gm (Sol mineur)"
+
+msgctxt "translateOpenChord"
+msgid "A"
+msgstr "A (La)"
+
+msgctxt "translateOpenChord"
+msgid "Am"
+msgstr "Am (La mineur)"
+
+msgctxt "translateOpenChord"
+msgid "B"
+msgstr "B (Si)"
+
+msgctxt "translateOpenChord"
+msgid "Bm"
+msgstr "Bm (Si mineur)"

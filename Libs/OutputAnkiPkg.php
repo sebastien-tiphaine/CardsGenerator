@@ -360,7 +360,16 @@ class OutputAnkiPkg extends OutputAnkiAbstract{
 		$oCardSetDeck->name = $this->_getCardSetName(true);
 		$oCardSetDeck->id 	= $intDeckId;
 		$oCardSetDeck->conf = $this->_pkgGetDConfId();
-		$oCardSetDeck->desc = Bootstrap::getInstance()->i18n()->_t('Description', 'OutputAnkiPkg', $this->_getCardSetName(false));
+		
+		// getting description
+		$strDeckDesc = Bootstrap::getInstance()->{'CardGenerator.description'};
+			
+        // do we have a valid description
+        if(is_string($strDeckDesc) || empty($strDeckDesc)){
+            $oCardSetDeck->desc = $strDeckDesc;
+        }
+		
+		//$oCardSetDeck->desc = Bootstrap::getInstance()->i18n()->_t('Description', 'OutputAnkiPkg', $this->_getCardSetName(false));
 		
 		// adding decks to the list
 		$oDecks->{"1"} = $oDeckSet;
