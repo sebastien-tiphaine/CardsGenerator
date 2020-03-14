@@ -363,7 +363,11 @@ class OutputAnkiPkg extends OutputAnkiAbstract{
 		
 		// getting description
 		$strDeckDesc = Bootstrap::getInstance()->{'CardGenerator.description'};
-			
+		
+		// replacing new line and carriage return chars
+		$strDeckDesc = str_replace('\r', chr(015), $strDeckDesc);
+		$strDeckDesc = str_replace('\n', chr(012), $strDeckDesc);
+		
         // do we have a valid description
         if(is_string($strDeckDesc) || empty($strDeckDesc)){
             $oCardSetDeck->desc = $strDeckDesc;

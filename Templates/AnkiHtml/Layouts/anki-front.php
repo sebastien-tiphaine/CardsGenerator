@@ -9,6 +9,6 @@
     {{QuestionInfo}}
   </div>
   <div class="bottomcontainer">
-	<a href="mailto:sebastien@laguitare.ch">sebastien@laguitare.ch</a> - <a href="https://laguitare.ch">laguitare.ch</a>
+	Copyright © <a href="mailto:sebastien@guitare-et-musique.com">Sébastien Tiphaine</a> 2020-2033 - Tous droits réservés - <a href="https://www.guitare-et-musique.com">www.guitare-et-musique.com</a>
   </div>
 </div>

@@ -129,8 +129,10 @@ class SvgAdapt extends XmlHandlerAbstract{
 				throw new Exception("Invalid file name given. String expected !"); 
 			}
 			
-			// filtering path
-			$strCssFile = Bootstrap::getPath($strCssFile);
+			if(class_exists('Bootstrap', false)){
+                // filtering path
+                $strCssFile = Bootstrap::getPath($strCssFile);
+			}
 			
 			if(!file_exists($strCssFile)){
 					throw new Exception("The given file does not exists."); 
@@ -1086,7 +1088,7 @@ class SvgAdapt extends XmlHandlerAbstract{
 			// generating file
 			exec('/usr/bin/convert -density '.$intDensity.' '.$strTmpFileName.' '.$strPngFile);
 			// removing temp file
-			//unlink($strTmpFileName);
+			unlink($strTmpFileName);
 			// done
 			return $this;
 		}

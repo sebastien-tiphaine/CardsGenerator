@@ -592,7 +592,7 @@ abstract class MusicLogic extends BaseAbstract{
 		}
 		
 		// returns fret number on which $strNote is placed for string $intString
-		// is $intAll is true, all the positions will be return, else, only the first
+		// if $intAll is true, all the positions will be return, else, only the first
 		public function getFretNumberForNote($strNote, $intString = 6, $intAll = true, $intMinFret = 0){
 			
 			// getting string first note
@@ -617,7 +617,7 @@ abstract class MusicLogic extends BaseAbstract{
 				
 				// is the found fret number highter than
 				// the minimum fret param
-				if($intFret <= $intMinFret){
+				if($intFret < $intMinFret){
 					// no
 					continue;
 				}

@@ -1,0 +1,27 @@
+#### Translation file         ####
+#### For files in Skeletons/MajorScale/ ####
+# Copyright (C) 2020-2033 Sébastien Tiphaine - www.guitare-et-musique.com
+# FIRST AUTHOR <sebastien@laguitare.ch>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language-Team: fr_FR <sebastien@guitare-et-musique.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Skeletons/FretboardKnowledge/IdentificationNote.php:
+msgid "Sur la {translate:StringNumth,%String%} corde, identifier l'emplacement de la note suivante"
+msgstr "Sur la {translate:StringNumth,%String%} corde, identifier l'emplacement de la note suivante :"
+
+msgid "{note} est {translate:FretNumth,{fretnum:%String%,0,0,%MinFret%}}"
+msgstr "{note} est {translate:FretNumth,{fretnum:%String%,0,0,%MinFret%}} :"
+
+
+# Skeletons/FretboardKnowledge/IdentificationNoteReverse.php:
+msgid "Quel est le nom de la note située à l'emplacement suivant"
+msgstr "Quel est le nom de la note située à l'emplacement suivant :"
+
+msgid "Il s'agit de la note {note}"
+msgstr "Il s'agit de : {note}"

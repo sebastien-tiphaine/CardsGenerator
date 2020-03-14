@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www/w3/org/1999/xlink" id="mainCanvas" class="portrait" width="300" height="360" style="background-color: rgb(255, 255, 255);">
+            <style type="text/css"><![CDATA[
+line.v_lines,
+line.h_lines{
+	stroke:#1C1C1C;
+}
+
+.landscape #hline6,
+.portrait #vline1{
+	stroke-width:4;
+}
+.landscape #hline5,
+.portrait #vline2{
+	stroke-width:3.2;
+}
+.landscape #hline4,
+.portrait #vline3{
+	stroke-width:2.8;
+}
+.landscape #hline3,
+.portrait #vline4{
+	stroke-width:2.2;
+}
+.landscape #hline2,
+.portrait #vline5{
+	stroke-width:1.5;
+}
+.landscape #hline1,
+.portrait #vline6{
+	stroke-width:1;
+}
+
+circle.subTram{
+	fill:#e6e6e6;
+}
+
+circle.blackcircle{
+	fill:black
+}
+
+text.txt_note{
+	font-family:Roboto, Verdana, FreeSans, Sans;
+	text-anchor:middle;
+	fill:white;
+	stroke:white;
+	font-size:16;
+}
+
+rect.neckbackground{
+	stroke:#1C1C1C; 
+	stroke-width:1; 
+	fill:#e1930e;
+}
+
+text.txt_title{
+	text-anchor:middle;
+	font-family:Roboto, Verdana, FreeSans, Sans; 
+	font-size:22;
+	fill:#bc3315;
+	stroke:#bc3315; 
+	stroke-width:1;
+}
+
+text.txt_extra{
+	text-anchor:middle; 
+	font-family:Roboto, Verdana, FreeSans, Sans; 
+	font-size:22;
+	fill:#bc3315;
+	stroke:#bc3315; 
+	stroke-width:1;
+}
+
+/* copyrights */
+text.txt_copyrights{
+	text-anchor:middle; 
+	font-family:Roboto, Verdana, FreeSans, Sans;
+	font-size:8; 
+	fill:#666666;
+}
+
+]]></style><svg id="neckArea" class="6" name="5">
+            <rect class="neckbackground" width="177" height="225" x="63" y="85"/><line id="hline1" class="h_lines" x1="65" y1="85" x2="240" y2="85" stroke="#1C1C1C"/><line id="hline2" class="h_lines" x1="65" y1="130" x2="240" y2="130" stroke="#1C1C1C"/><line id="hline3" class="h_lines" x1="65" y1="175" x2="240" y2="175" stroke="#1C1C1C"/><line id="hline4" class="h_lines" x1="65" y1="220" x2="240" y2="220" stroke="#1C1C1C"/><line id="hline5" class="h_lines" x1="65" y1="265" x2="240" y2="265" stroke="#1C1C1C"/><line id="hline6" class="h_lines" x1="65" y1="310" x2="240" y2="310" stroke="#1C1C1C"/><line id="vline1" class="v_lines" x1="65" y1="85" x2="65" y2="310" stroke="#1C1C1C"/><line id="vline2" class="v_lines" x1="100" y1="85" x2="100" y2="310" stroke="#1C1C1C"/><line id="vline3" class="v_lines" x1="135" y1="85" x2="135" y2="310" stroke="#1C1C1C"/><line id="vline4" class="v_lines" x1="170" y1="85" x2="170" y2="310" stroke="#1C1C1C"/><line id="vline5" class="v_lines" x1="205" y1="85" x2="205" y2="310" stroke="#1C1C1C"/><line id="vline6" class="v_lines" x1="240" y1="85" x2="240" y2="310" stroke="#1C1C1C"/></svg>
+            <svg id="nameArea">
+            </svg>
+            <svg id="nutArea" class="65" name="85">
+            </svg>
+            <svg id="barreArea">
+            </svg>
+            <svg id="noteArea">
+            <g id="Sn2Fn1" class="noteGroup"><circle class="shape_circle" cx="65" cy="152.5" r="16" fill="#000000"/><text class="txt_note" x="65" y="159" text-anchor="middle" font-size="22" fill="white" stroke="white">1</text></g><g id="Sn3Fn3" class="noteGroup"><circle class="shape_circle" cx="135" cy="197.5" r="16" fill="#000000"/><text class="txt_note" x="135" y="204" text-anchor="middle" font-size="22" fill="white" stroke="white">7</text></g><g id="Sn3Fn4" class="noteGroup"><circle class="shape_circle" cx="170" cy="197.5" r="16" fill="#000000"/><text class="txt_note" x="170" y="204" text-anchor="middle" font-size="22" fill="white" stroke="white">3</text></g><g id="Sn2Fn5" class="noteGroup"><circle class="shape_circle" cx="205" cy="152.5" r="16" fill="#000000"/><text class="txt_note" x="205" y="159" text-anchor="middle" font-size="22" fill="white" stroke="white">5</text></g>
+            </svg>
+            <svg id="lineArea">
+            </svg>
+            <svg id="txtArea">
+            <g id="copyright" class="noteGroup"><text class="txt_copyrights" x="150" y="350">S&#xE9;bastien Tiphaine - 2020 - guitare-et-musique.com</text></g></svg>
+        </svg>

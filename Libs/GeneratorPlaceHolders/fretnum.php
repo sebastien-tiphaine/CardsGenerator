@@ -38,14 +38,15 @@ class PlaceHolder_fretnum extends PlaceHolderAbstract{
 		// do we have a min fret to be calculated
 		if($intMinFretFromRootString){
 			// yes
-			// getting root not fret number
+			// getting root note fret number
 			$intRootFret = intval($this->_render($intMinFretFromRootString, $intAdjust, 0, $intMinFret));
 			// setting new min fret value
 			$intMinFret  = $intRootFret+$intMinFretRootMargin;
 		}
 		
 		// getting fret array
-		$arrFret = $this->getFretNumberForNote($strNote, $intString, true);
+		$arrFret = $this->getFretNumberForNote($strNote, $intString, true, $intMinFret);
+		
 		// getting default fret
 		$intFret = intval($arrFret[0]);
 	
