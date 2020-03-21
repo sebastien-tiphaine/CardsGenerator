@@ -377,6 +377,11 @@ abstract class MusicLogic extends BaseAbstract{
 			// getting interval number
 			$intInterval = array_search($this->getNoteAbs($strNoteB), $arrNotes) + 1;
 			
+			// patch (should be change)
+			if($intInterval == 1) {
+                $intInterval = 2;
+			}
+			
 			// checking if interval is usable
 			if(!array_key_exists($intInterval, $this->_arrIntervals)){
 				throw new Exception('Not a usable interval value : '.$intInterval);

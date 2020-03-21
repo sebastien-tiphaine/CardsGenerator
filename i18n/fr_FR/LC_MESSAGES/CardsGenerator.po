@@ -299,6 +299,12 @@ msgstr "en 3ème case"
 # Libs/MusicTemplating.php:295 function _placeHolder_translate. 
 # Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
 msgctxt "FretNumth"
+msgid "4"
+msgstr "en 4ème case"
+
+# Libs/MusicTemplating.php:295 function _placeHolder_translate. 
+# Translate the number of the fret on which a note is placed : ex : on the 3rd fret, on the open string 
+msgctxt "FretNumth"
 msgid "5"
 msgstr "en 5ème case"
 
