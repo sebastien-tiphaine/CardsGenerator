@@ -112,6 +112,11 @@ class i18nTranslations{
 			$this->_cliOutput('WARNING : not able to put env variable : LC_ALL='.$strLang);
 		}
 		
+		// setting local
+		if(!putenv('LANGUAGE='.$strLang)){
+			$this->_cliOutput('WARNING : not able to put env variable : LANGUAGE='.$strLang);
+		}
+		
 		if(!setlocale(LC_ALL, $strLang)){
 			$this->_cliOutput('WARNING : setlocale failed : LC_ALL='.$strLang);
 			// turning flag to false
@@ -121,9 +126,8 @@ class i18nTranslations{
 		if($intSetLang){
 			$this->_strLocale = $strLang;
 		}
-		
+				
 		//$this->_cliOutput('INFO : locale set to '.$strLang);
-		
 		// done
 		return $this;
 	}
