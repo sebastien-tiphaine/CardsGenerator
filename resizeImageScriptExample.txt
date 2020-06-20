@@ -1,0 +1,4 @@
+magick mogrify -path ./outputPath/ -resize Size *.png
+magick mogrify -path ./size638/ -resize 638 (width only) *.png
+magick mogrify -path ./size638/ -resize x638 (height only) *.png
+magick mogrify -path ./size638/ -resize 64x64 (width x height) *.png
