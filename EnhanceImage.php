@@ -18,8 +18,19 @@ $arrOptions = getopt(
 		'title:',
 		'neckpos:',
 		'hstring:',
+		'srcpath:',
+		'srcdest:',
 	)
 );
+
+// init images list
+//$arrDatas = array();
+
+//if($arrOptions['srcpath'] || empty($arrOptions['srcpath']){
+
+//}
+
+
 
 if(!isset($arrOptions['src']) || empty($arrOptions['src'])){
     echo "Missing src image\n";
