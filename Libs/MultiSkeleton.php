@@ -362,7 +362,7 @@ class MultiSkeleton extends StoreAbstract implements Iterator, Countable{
 
 		foreach($arrCards as $arrCard){
 			// adding template to the generator
-			call_user_func_array(array($oGenerator, 'addCardTemplate'), $arrCard);
+			call_user_func_array(array($oGenerator, 'addCardTemplate'), array_values($arrCard));
 		}
 
 		// done

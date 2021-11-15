@@ -1,6 +1,7 @@
-<?php require(__DIR__.'/anki-front.php'); ?>
-
 <div class="backcontainer">
+  <div class="headertitle">
+	{{Title}}
+  </div>
   <div class="headercontainer">
     {{Answer}}
   </div>

@@ -38,20 +38,22 @@ html,body {
 	color: #fff;
 	background: #00796b;
 	font-weight: 400;
+    font-size: 28px;
 	/*font-size: 2.8em;*/
-	font-size: 3.2vw;
+	/*font-size: 3.2vw;*/
 	padding: 15px;
 	-webkit-background-clip: padding-box; 
 	-moz-background-clip:    padding; 
 	background-clip:         padding-box;
 }
 
+.backcontainer .headercontainer,
 .frontcontainer .headercontainer{
 	border-left: 1px solid white;
 	border-right: 1px solid white;
 }
 
-.backcontainer .headercontainer{
+/*.backcontainer .headercontainer{
 	border: 1px solid white;
 	-webkit-border-radius: 7px 7px 0 0; 
 	-moz-border-radius: 7px 7px 0 0; 
@@ -59,14 +61,15 @@ html,body {
 	-webkit-background-clip: padding-box; 
 	-moz-background-clip:    padding; 
 	background-clip:         padding-box;
-}
+}*/
 
 .contentcontainer {
 	font-family: Roboto, Verdana, FreeSans, Sans;
 	font-weight: 500;
 	padding: 15px 15px 30px 15px;
+    font-size: 28px;
 	/*font-size: 2.8em;*/
-	font-size: 3.2vw;
+	/*font-size: 3.2vw;*/
 	background: #fff;
 	text-align:center;
 	color:#bc3315;
@@ -88,8 +91,9 @@ html,body {
 	font-family: Roboto, Verdana, FreeSans, Sans;
 	font-weight: 100;
 	padding: 5px 15px 5px 15px;
+    font-size: 12px;
 	/*font-size: 1em*/;
-	font-size: 1vw;
+	/*font-size: 1vw;*/
 	background: #20272b;
 	color:#fff;
 	-webkit-border-radius: 0 0 7px 7px; 
@@ -107,8 +111,9 @@ html,body {
 	font-family: Roboto, Verdana, FreeSans, Sans;
 	font-weight: 100;
 	padding: 5px 15px 5px 15px;
+    font-size: 20px;
 	/*font-size: 1em;*/
-	font-size: 1vw;
+	/*font-size: 1vw;*/
 	background: #20272b;
 	color:#fff;
 	-webkit-border-radius: 7px 7px 0 0; 
@@ -129,24 +134,23 @@ html,body {
 	text-decoration:underline;
 }
 
-/*div.image{
-	padding:0 22%;
+div.image img{
+    max-width:100% !important;
+    height:auto;
 }
-
-.contentcontainer div.horiz15{
-	padding:0 5%;
-}*/
 
 .text-title{
 	/*font-size: 0.55em;*/
-	font-size: 2.9vw;
+	/*font-size: 2.9vw;*/
+    font-size: 28px;
 	font-weight: 500;
 	padding-bottom:15px;
 }
 
 .text-info{
 	/*font-size: 0.8em;*/
-	font-size: 2.4vw;
+    /*font-size: 2.4vw;*/
+	font-size: 26px;
 	color:#bc3315;
 }
 
@@ -173,7 +177,8 @@ html,body {
 
 .text-rem{
     /*font-size: 0.6em;*/
-	font-size: 1.2vw;
+	/*font-size: 1.2vw;*/
+    font-size: 18px;
 	font-weight: 400;
 	color:#bc3315;
 	padding:10px 0 10px 0;
@@ -181,8 +186,9 @@ html,body {
 
 .footercontentcontainer .text-rem{
 	color:#fff;
-	font-size: 1.2vw;
-	font-weight: 400;
+	/*font-size: 1.2vw;*/
+	font-size: 18px
+    font-weight: 400;
 }
 
 .text-rem  ul,
@@ -213,7 +219,8 @@ html,body {
 .soundcontainer table tr td,
 .soundcontainer label{
     /*font-size: 1.2em;*/
-	font-size: 1.2vw;
+	/*font-size: 1.2vw;*/
+    font-size:18px;
 	font-weight: 500;
 	margin-right:10px;
     text-align:right;

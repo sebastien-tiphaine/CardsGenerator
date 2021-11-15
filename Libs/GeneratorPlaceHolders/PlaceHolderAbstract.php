@@ -204,6 +204,6 @@ abstract class PlaceHolderAbstract extends MusicLogic{
 	// render the placeHolder
 	public function render($arrArgs = array()){
 		// calling user method
-		return call_user_func_array(array($this, '_render'), $arrArgs);
+		return call_user_func_array(array($this, '_render'), array_values($arrArgs));
 	}
 }

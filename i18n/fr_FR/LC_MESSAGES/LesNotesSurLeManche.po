@@ -1,0 +1,28 @@
+#### Translation file         ####
+#### For files in Skeletons/MajorScale/ ####
+# Copyright (C) 2020-2033 Sébastien Tiphaine - www.guitare-et-musique.com
+# FIRST AUTHOR <sebastien@laguitare.ch>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language-Team: fr_FR <sebastien@guitare-et-musique.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Skeletons/LesNotesSurLeManche/IdentificationNoteReverse.php:
+msgid "Quelle note se trouve {translate:FretNumth,%RealFretNum%} sur la {translate:StringNumth,%StringNum%} corde"
+msgstr "Quelle note se trouve {translate:FretNumth,%RealFretNum%} sur la {translate:StringNumth,%StringNum%} corde ?"
+
+msgid "La note placée {translate:FretNumth,%RealFretNum%} sur la {translate:StringNumth,%StringNum%} corde est"
+msgstr "La note placée {translate:FretNumth,%RealFretNum%} sur la {translate:StringNumth,%StringNum%} corde est:"
+
+
+# Skeletons/FretboardKnowledge/IdentificationNote.php:
+msgid "Pour la zone des {tolower:%NeckZoneName%}, où se situe la note suivante"
+msgstr "Pour la zone des {tolower:%NeckZoneName%}, où se situe la note suivante:"
+
+msgid "Pour la zone des {tolower:%NeckZoneName%}, la note {translate:translateNote,%NoteName%}%NoteAlt% [%OctaveNum%] est située"
+msgstr "Pour la zone des {tolower:%NeckZoneName%}, la note {translate:translateNote,%NoteName%}%NoteAlt% [%OctaveNum%] est située:"

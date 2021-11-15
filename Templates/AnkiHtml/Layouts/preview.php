@@ -12,6 +12,7 @@
 		Tags  : {{Tags}}
 	</div>
 </div>
+<?php require(__DIR__.'/anki-front.php'); ?>
 <?php require(__DIR__.'/anki-back.php'); ?>
 </body>
 </html>

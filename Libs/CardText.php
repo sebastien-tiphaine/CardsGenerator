@@ -19,7 +19,7 @@ class CardText{
 	// list of entities that have to be replaced before
 	// translation
 	protected $_arrPreEntities = array();
-	// does current Text have a plural 
+	// does current Text have a plural
 	protected $_hasPlural = false;
 	// does current Text have a plural with a possible zero value
 	protected $_hasZeroPlural = false;
@@ -27,7 +27,7 @@ class CardText{
 	protected $_mPluralVal = false;
 	// list of change that have to be done post translation
 	protected $_arrPostFilters = array();
-	
+
 	// constructor
 	// $mText text id
 	// $strDomain translation domain

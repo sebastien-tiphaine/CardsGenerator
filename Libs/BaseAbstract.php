@@ -232,7 +232,7 @@ abstract class BaseAbstract{
 				$this->_cliOutput('# '.$strMethod.' on '.get_class($oObject).'...', true);
 			}
 			
-			$arrResult[] = call_user_func_array(array($oObject, $strMethod), $arrParams);
+			$arrResult[] = call_user_func_array(array($oObject, $strMethod), array_values($arrParams));
 
 			if($intCliOut){
 				$this->_cliOutput(' [Ok]');

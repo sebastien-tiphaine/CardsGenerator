@@ -23,7 +23,7 @@ class Bootstrap{
 	} 
 
 	// returns bootstrap instance
-	public function getInstance(){
+	public static function getInstance(){
 
 		if(!self::$_oInstance instanceof Bootstrap){
 			self::$_oInstance = new Bootstrap();

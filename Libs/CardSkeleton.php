@@ -650,8 +650,8 @@ class CardSkeleton extends StoreAbstract{
 			// getting an array rendered version of the skeleton
 			$arrCard = $this->toArray($arrValues, $arrVars, $mBaseScale);
 
-			// adding template to the generator
-			call_user_func_array(array($oGenerator, 'addCardTemplate'), $arrCard);
+            // adding template to the generator
+			call_user_func_array(array($oGenerator, 'addCardTemplate'), array_values($arrCard));
 
 			// done
 			return $this;

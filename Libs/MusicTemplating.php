@@ -99,11 +99,11 @@ abstract class MusicTemplating extends MusicLogicExt{
 		$intScaleType = $this->_filterScaleType($intScaleType);
 		
 		// definig regexp :
-		$strReg = '/\{([a-zA-Z\-]+):([a-zA-Z0-9\-\s,]+)\}|\{([a-zA-Z\-]+)\}/';
+		$strReg = '/\{([a-zA-Z\-]+):([a-zA-Z0-9àèéüöäùÀÈÉÜÖÄÙ\-\s,]+)\}|\{([a-zA-Z\-]+)\}/';
 		
 		// debug
 		$this->_debugMessage('Analysing : '.$strNote.' -> '.$strString);
-		
+
 		// looking for placeholders
 		if(!preg_match_all($strReg, $strString, $arrMatches)){
 				$this->_debugMessage('  :: Nothing found !');

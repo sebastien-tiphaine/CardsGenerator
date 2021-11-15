@@ -743,7 +743,7 @@ class SvgAdapt extends XmlHandlerAbstract{
 		// if the flag $intAddVisualMarks is set to true, the visual marks will be set automatically
 		public function setNeckPosNum($strNum, $intFretPos = 1, $intAddVisualMarks = true, $strVisualMarksColor = 'white'){
 		
-			// loading svg xml		
+			// loading svg xml
 			$oXml   = $this->getXml();
 			// getting child
 			$oChild = $this->_getChild($oXml, 'svg', 'neckInfoArea');

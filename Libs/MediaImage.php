@@ -126,7 +126,7 @@ class MediaImage extends MediaAbstract{
 			}	
 					
 			// sending param value to the adapter
-			call_user_func_array(array($oAdapt, $strMethod), $arrCallParams);
+			call_user_func_array(array($oAdapt, $strMethod), array_values($arrCallParams));
 		}
 		
 		// removing list
@@ -155,6 +155,47 @@ class MediaImage extends MediaAbstract{
 		// removing entry from main array
 		unset($arrImage['src']);
 
+        // getting file info
+        $arrFileInfo = pathinfo($strSource);
+
+        // which type of image do we have
+        $strMime = mime_content_type($strSource);
+
+        // do we have a real image file
+        if(strpos($strMime, 'image/') === 0){
+            // yes.
+            // setting output file
+            $strOutFile = Bootstrap::getPath($this->_getOutputDir().'/'.$strImgIdent.'.'.strtolower($arrFileInfo['extension']));
+
+            // setting default size
+            $strSize = '';
+
+            if(isset($arrImage['size']) && !empty($arrImage['size'])){
+                $strSize = '-resize '.$arrImage['size'];
+            }
+            else if(isset($arrParams['size']) && is_numeric($arrParams['size'])){
+                $strSize = '-resize '.$arrParams['size'];
+            }
+
+            // generating file
+			exec('/usr/bin/convert '.$strSize.' '.$strSource.' '.$strOutFile);
+
+            // done
+            return $strOutFile;
+        }
+
+        // no
+        // do we have text/plain ?
+        if($strMime != 'text/plain'){
+            throw new Exception(__CLASS__.':: given image does not contains any svg data !');
+        }
+
+        // do we have an svg file
+        if(strtolower($arrFileInfo['extension']) != 'svg'){
+            // no
+            throw new Exception(__CLASS__.':: given image is not an svg file !');
+        }
+
 		// setting outputfile name
 		$strPngFile = Bootstrap::getPath($this->_getOutputDir().'/'.$strImgIdent.'.png');
 
@@ -163,7 +204,7 @@ class MediaImage extends MediaAbstract{
 			// yes
 			return $strPngFile;
 		}
-		
+
 		// setting new svg adapter object
 		$oAdapt = new SvgAdapt($strSource);
 		
@@ -225,13 +266,13 @@ class MediaImage extends MediaAbstract{
 		$oAdapt->fixCirclesText();
 		$oAdapt->fixCirclesText('neckInfoArea');
 
-		// setting default size
+        // setting default size
 		$intSize = 130;
 
 		if(isset($arrParams['size']) && is_numeric($arrParams['size'])){
 			$intSize = $arrParams['size'];
 		}
-		
+
 		// generating image
 		$oAdapt->convert($strPngFile, $intSize);
 		
